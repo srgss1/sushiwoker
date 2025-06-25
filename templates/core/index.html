@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h2>Суши и роллы с доставкой в Мытищах</h2>
+        <a href="#menu" class="btn">Смотреть меню</a>
+    </div>
+</section>
+
+<section id="menu" class="categories">
+    <div class="container">
+        <h2>Категории</h2>
+        <div class="category-filters">
+            <button class="filter-btn active" data-category="all">Все</button>
+            {% for category in categories %}
+            <button class="filter-btn" data-category="{{ category.slug }}">{{ category.name }}</button>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <h2>Популярные товары</h2>
+        <div class="product-grid">
+            {% for product in popular_products %}
+            <div class="product-card" data-category="{{ product.category.slug }}">
+                <img
+                        {% if product.image %}
+                        src="{{ product.image.url }}"
+                        {% else %}
+                        src="{% static 'images/placeholder.png' %}"
+                        {% endif %}
+                        alt="{{ product.name }}"
+                >
+                <h3>{{ product.name }}</h3>
+                <p class="description">{{ product.description|truncatechars:50 }}</p>
+                <div class="price-weight">
+                    <span class="price">{{ product.price }} ₽</span>
+                    {% if product.weight %}<span class="weight">{{ product.weight }} г</span>{% endif %}
+                </div>
+                <button class="add-to-cart" data-product="{{ product.id }}">В корзину</button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
