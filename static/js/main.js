@@ -82,41 +82,68 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // ============= Добавление в корзину =============
+    // ============= Добавление в корзину (обновленная версия с AJAX) =============
     const addToCartButtons = document.querySelectorAll('.add-to-cart');
     
     if (addToCartButtons.length > 0) {
         addToCartButtons.forEach(button => {
             button.addEventListener('click', function() {
                 const productId = this.dataset.product;
-                const productCard = this.closest('.product-card');
+                const button = this;
                 
-                // Анимация добавления
-                this.textContent = '✓ Добавлено';
-                this.disabled = true;
-                this.classList.add('added');
+                // Визуальная обратная связь
+                button.textContent = 'Добавляем...';
+                button.disabled = true;
                 
-                // Восстановление кнопки через 2 секунды
-                setTimeout(() => {
-                    this.textContent = 'В корзину';
-                    this.disabled = false;
-                    this.classList.remove('added');
-                }, 2000);
-                
-                // Обновляем счетчик корзины
-                const cartCount = document.querySelector('.cart-count');
-                if (cartCount) {
-                    const currentCount = parseInt(cartCount.textContent) || 0;
-                    cartCount.textContent = currentCount + 1;
-                    cartCount.classList.add('pulse');
-                    
+                // Отправляем запрос на сервер
+                fetch(`/orders/cart/add/${productId}/`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken')
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Анимация кнопки
+                        button.textContent = '✓ Добавлено';
+                        button.classList.add('added');
+                        
+                        // Обновляем счетчик корзины
+                        const cartCount = document.querySelector('.cart-count');
+                        if (cartCount) {
+                            cartCount.textContent = data.total_items;
+                            cartCount.classList.add('pulse');
+                            
+                            setTimeout(() => {
+                                cartCount.classList.remove('pulse');
+                            }, 500);
+                        }
+                        
+                        // Восстановление кнопки через 2 секунды
+                        setTimeout(() => {
+                            button.textContent = 'В корзину';
+                            button.disabled = false;
+                            button.classList.remove('added');
+                        }, 2000);
+                    } else {
+                        // Ошибка
+                        button.textContent = 'Ошибка!';
+                        setTimeout(() => {
+                            button.textContent = 'В корзину';
+                            button.disabled = false;
+                        }, 2000);
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    button.textContent = 'Ошибка!';
                     setTimeout(() => {
-                        cartCount.classList.remove('pulse');
-                    }, 500);
-                }
-                
-                // Здесь будет AJAX-запрос к серверу
-                // fetch(`/add-to-cart/${productId}/`, { ... })
+                        button.textContent = 'В корзину';
+                        button.disabled = false;
+                    }, 2000);
+                });
             });
         });
     }

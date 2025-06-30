@@ -38,14 +38,14 @@
         </div>
         <div class="product-grid">
             {% for product in products %}
-            <div class="product-card"
+            <div class="product-card" 
                  data-category="{{ product.category.slug }}"
                  data-price="{{ product.price }}"
                  data-popular="{{ product.is_popular|yesno:'true,false' }}">
                 <div class="image-container" style="padding-bottom: {{ product.image_aspect_ratio|default:66.66 }}%">
                     <img
                             {% if product.image %}
-                            src="{{ product.image_small.url }}"
+                            src="{{ product.image_small.url }}" 
                             srcset="{{ product.image_small.url }} 480w, {{ product.image_medium.url }} 768w, {{ product.image.url }} 1200w"
                             sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                             {% else %}
@@ -69,6 +69,11 @@
                     <button class="add-to-cart" data-product="{{ product.id }}">В корзину</button>
                 </div>
             </div>
+            {% empty %}
+            <div class="no-products">
+                <p>Товары не найдены</p>
+                <button class="btn reset-filters">Сбросить фильтры</button>
+            </div>
             {% endfor %}
         </div>
     </div>
@@ -80,12 +85,19 @@
         <h2 class="section-title">Акции</h2>
         <div class="promotion-grid">
             <div class="promotion-card">
+                <div class="promotion-badge">-20%</div>
                 <h3>Скидка 20% на первый заказ</h3>
                 <p>По промокоду: SUSHI20</p>
             </div>
             <div class="promotion-card">
+                <div class="promotion-badge">Бесплатно</div>
                 <h3>Бесплатная доставка</h3>
                 <p>При заказе от 1000 рублей</p>
+            </div>
+            <div class="promotion-card">
+                <div class="promotion-badge">Подарок</div>
+                <h3>Дополнительный соус</h3>
+                <p>К каждому заказу от 800 рублей</p>
             </div>
         </div>
     </div>
@@ -97,39 +109,494 @@
         <h2 class="section-title">Доставка</h2>
         <div class="delivery-info">
             <div class="delivery-map">
-                <div id="map" style="height: 400px; background: #eee; border-radius: 8px;"></div>
+                <div id="map"
+                     style="height: 400px; background: #eee; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <p>Карта доставки</p>
+                </div>
             </div>
             <div class="delivery-text">
                 <h3>Доставляем по Мытищам</h3>
-                <p>Время доставки: 60-90 минут</p>
-                <p>Минимальный заказ: 500 рублей</p>
-                <p>Стоимость доставки: 150 рублей (бесплатно от 1000 рублей)</p>
-                <p>Принимаем к оплате: наличные, карты, онлайн</p>
+                <ul class="delivery-list">
+                    <li>Время доставки: <strong>60-90 минут</strong></li>
+                    <li>Минимальный заказ: <strong>500 рублей</strong></li>
+                    <li>Стоимость доставки: <strong>150 рублей</strong> (бесплатно от 1000 рублей)</li>
+                    <li>Принимаем к оплате: <strong>наличные, карты, онлайн</strong></li>
+                    <li>Часы работы: <strong>10:00 - 23:00</strong> без выходных</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Секция отзывов -->
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <h2 class="section-title">Отзывы</h2>
         <div class="review-grid">
             <div class="review-card">
                 <div class="review-header">
-                    <h3>Анна</h3>
+                    <div class="review-avatar">А</div>
+                    <div class="review-meta">
+                        <h3>Анна</h3>
+                        <div class="review-date">15.06.2025</div>
+                    </div>
                     <div class="rating">★★★★★</div>
                 </div>
-                <p>Очень вкусные роллы! Заказываем регулярно, всегда свежие и быстро привозят.</p>
+                <p>Очень вкусные роллы! Заказываем регулярно, всегда свежие и быстро привозят. Особенно нравится
+                    Филадельфия и Калифорния.</p>
             </div>
             <div class="review-card">
                 <div class="review-header">
-                    <h3>Михаил</h3>
+                    <div class="review-avatar">М</div>
+                    <div class="review-meta">
+                        <h3>Михаил</h3>
+                        <div class="review-date">12.06.2025</div>
+                    </div>
                     <div class="rating">★★★★☆</div>
                 </div>
-                <p>Хорошее соотношение цена/качество. Филадельфия просто восхитительна!</p>
+                <p>Хорошее соотношение цена/качество. Филадельфия просто восхитительна! Доставили на 15 минут раньше
+                    обещанного времени.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">Е</div>
+                    <div class="review-meta">
+                        <h3>Екатерина</h3>
+                        <div class="review-date">10.06.2025</div>
+                    </div>
+                    <div class="rating">★★★★★</div>
+                </div>
+                <p>Заказали сет на компанию - все были в восторге! Большие порции, красивая подача. Обязательно будем
+                    заказывать снова.</p>
             </div>
         </div>
     </div>
 </section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Стили для главной страницы */
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('{% static "images/hero-bg.jpg" %}') center/cover no-repeat;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .hero h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        animation: fadeInUp 1s ease;
+    }
+    
+    .btn {
+        display: inline-block;
+        background: var(--primary-red);
+        color: var(--white);
+        padding: 12px 24px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s, transform 0.2s;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .btn:hover {
+        background: var(--dark-red);
+        transform: translateY(-2px);
+    }
+    
+    .section-title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 32px;
+        color: var(--dark-gray);
+        position: relative;
+        padding-bottom: 15px;
+    }
+    
+    .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+        background: var(--primary-red);
+    }
+    
+    .category-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 20px 0;
+        justify-content: center;
+    }
+    
+    .filter-btn {
+        background: var(--light-gray);
+        border: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-weight: bold;
+    }
+    
+    .filter-btn.active {
+        background: var(--primary-red);
+        color: var(--white);
+    }
+    
+    .sorting {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+    
+    #sort-select {
+        padding: 8px 12px;
+        border-radius: 4px;
+        border: 1px solid var(--medium-gray);
+        background: var(--white);
+    }
+    
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .product-card {
+        border: 1px solid var(--medium-gray);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+        background: var(--white);
+        position: relative;
+    }
+    
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    
+    .image-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--light-gray);
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .product-card:hover .image-container img {
+        transform: scale(1.05);
+    }
+    
+    .product-badges {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        gap: 5px;
+        z-index: 1;
+    }
+    
+    .badge {
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: bold;
+        color: var(--white);
+    }
+    
+    .badge.popular {
+        background: var(--primary-red);
+    }
+    
+    .badge.new {
+        background: var(--primary-yellow);
+        color: var(--dark-gray);
+    }
+    
+    .product-content {
+        padding: 15px;
+    }
+    
+    .product-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: var(--dark-gray);
+    }
+    
+    .description {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 12px;
+        min-height: 40px;
+    }
+    
+    .price-weight {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    
+    .price {
+        font-weight: bold;
+        color: var(--primary-red);
+        font-size: 18px;
+    }
+    
+    .weight {
+        color: #888;
+        font-size: 14px;
+    }
+    
+    .add-to-cart {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: var(--primary-yellow);
+        border: none;
+        border-radius: 4px;
+        color: var(--dark-gray);
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .add-to-cart:hover {
+        background: #ffcc00;
+    }
+    
+    .add-to-cart.added {
+        background: var(--primary-red);
+        color: white;
+    }
+    
+    /* Стили для секции акций */
+    .promotion-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .promotion-card {
+        background: var(--light-gray);
+        border-radius: 8px;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        transition: transform 0.3s;
+    }
+    
+    .promotion-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .promotion-badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: var(--primary-red);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 0 0 0 8px;
+        font-weight: bold;
+    }
+    
+    .promotion-card h3 {
+        color: var(--dark-red);
+        margin-bottom: 10px;
+    }
+    
+    /* Стили для секции доставки */
+    .delivery-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .delivery-list {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .delivery-list li {
+        margin-bottom: 10px;
+        padding-left: 25px;
+        position: relative;
+    }
+    
+    .delivery-list li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: var(--primary-red);
+        font-weight: bold;
+    }
+    
+    /* Стили для секции отзывов */
+    .review-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .review-card {
+        background: var(--white);
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        border: 1px solid var(--medium-gray);
+    }
+    
+    .review-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .review-avatar {
+        width: 40px;
+        height: 40px;
+        background: var(--primary-yellow);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+    
+    .review-meta {
+        flex-grow: 1;
+    }
+    
+    .review-date {
+        font-size: 12px;
+        color: #888;
+    }
+    
+    .rating {
+        color: var(--primary-yellow);
+        font-size: 18px;
+    }
+    
+    /* Адаптивность */
+    @media (max-width: 992px) {
+        .hero {
+            height: 400px;
+        }
+        
+        .hero h2 {
+            font-size: 36px;
+        }
+        
+        .delivery-info {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .hero {
+            height: 300px;
+        }
+        
+        .hero h2 {
+            font-size: 28px;
+        }
+        
+        .section-title {
+            font-size: 28px;
+        }
+        
+        .category-filters {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            justify-content: flex-start;
+        }
+        
+        .filter-btn {
+            flex: 0 0 auto;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .hero {
+            height: 250px;
+        }
+        
+        .hero h2 {
+            font-size: 24px;
+        }
+        
+        .product-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    .no-products {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .reset-filters {
+        margin-top: 15px;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Сброс фильтров
+        const resetFiltersBtn = document.querySelector('.reset-filters');
+        if (resetFiltersBtn) {
+            resetFiltersBtn.addEventListener('click', function() {
+                // Сброс активной кнопки категории
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.dataset.category === 'all') {
+                        btn.classList.add('active');
+                    }
+                });
+
+                // Показать все продукты
+                document.querySelectorAll('.product-card').forEach(card => {
+                    card.style.display = 'block';
+                });
+
+                // Сброс сортировки
+                document.getElementById('sort-select').value = 'default';
+
+                // Перезагрузка страницы для полного сброса
+                window.location.href = window.location.pathname;
+            });
+        }
+    });
+</script>
 {% endblock %}

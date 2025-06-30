@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Корзина | SushiWoker{% endblock %}
+
+{% block content %}
+<section class="cart">
+    <div class="container">
+        <h2 class="section-title">Ваша корзина</h2>
+
+        {% if cart.items.exists %}
+        <div class="cart-items">
+            <table>
+                <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Итого</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in cart.items.all %}
+                <tr>
+                    <td>
+                        <div class="cart-item-product">
+                            {% if item.product.image_small %}
+                            <img src="{{ item.product.image_small.url }}" alt="{{ item.product.name }}" width="80">
+                            {% else %}
+                            <img src="{% static 'images/placeholder.png' %}" alt="Изображение отсутствует" width="80">
+                            {% endif %}
+                            <h4>{{ item.product.name }}</h4>
+                        </div>
+                    </td>
+                    <td>{{ item.product.price }} ₽</td>
+                    <td>
+                        <form action="{% url 'orders:update_cart_item' item.id %}" method="post" class="quantity-form">
+                            {% csrf_token %}
+                            <div class="quantity-controls">
+                                <button type="button" class="quantity-btn minus" data-item-id="{{ item.id }}">-</button>
+                                <input type="number" name="quantity" value="{{ item.quantity }}" min="1"
+                                       class="quantity-input" data-item-id="{{ item.id }}">
+                                <button type="button" class="quantity-btn plus" data-item-id="{{ item.id }}">+</button>
+                            </div>
+                        </form>
+                    </td>
+                    <td>{{ item.total_price }} ₽</td>
+                    <td>
+                        <form action="{% url 'orders:remove_from_cart' item.id %}" method="post">
+                            {% csrf_token %}
+                            <button type="submit" class="remove-btn">×</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <div class="summary-item">
+                    <span>Товары:</span>
+                    <span>{{ cart.total_price }} ₽</span>
+                </div>
+                <div class="summary-item">
+                    <span>Доставка:</span>
+                    <span>150 ₽</span>
+                </div>
+                <div class="summary-item total">
+                    <strong>Итого к оплате:</strong>
+                    <strong>{{ cart.total_price|add:150 }} ₽</strong>
+                </div>
+
+                <a href="{% url 'orders:checkout' %}" class="btn">Оформить заказ</a>
+            </div>
+        </div>
+        {% else %}
+        <div class="empty-cart">
+            <div class="empty-icon">🛒</div>
+            <p>Ваша корзина пуста</p>
+            <a href="{% url 'index' %}" class="btn">Вернуться в меню</a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Стили для корзины */
+    .cart-items {
+        margin-top: 30px;
+        overflow-x: auto;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid var(--medium-gray);
+    }
+    
+    th {
+        background-color: var(--light-gray);
+        font-weight: bold;
+    }
+    
+    .cart-item-product {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .cart-item-product img {
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    
+    .quantity-controls {
+        display: flex;
+        align-items: center;
+    }
+    
+    .quantity-btn {
+        width: 30px;
+        height: 30px;
+        background: var(--light-gray);
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .quantity-btn:hover {
+        background: var(--medium-gray);
+    }
+    
+    .quantity-input {
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        margin: 0 5px;
+        border: 1px solid var(--medium-gray);
+        border-radius: 4px;
+    }
+    
+    .remove-btn {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: var(--primary-red);
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .remove-btn:hover {
+        background: rgba(255, 65, 54, 0.1);
+    }
+    
+    .cart-summary {
+        background: var(--light-gray);
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        margin-left: auto;
+    }
+    
+    .summary-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .summary-item.total {
+        font-size: 18px;
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid var(--medium-gray);
+    }
+    
+    .empty-cart {
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .empty-icon {
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+    
+    .empty-cart p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    @media (max-width: 768px) {
+        th, td {
+            padding: 8px 10px;
+        }
+        
+        .cart-item-product {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+        }
+        
+        .cart-item-product img {
+            width: 60px;
+        }
+        
+        .cart-summary {
+            max-width: 100%;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Обновление количества товаров
+        document.querySelectorAll('.quantity-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const itemId = this.dataset.itemId;
+                const input = document.querySelector(`.quantity-input[data-item-id="${itemId}"]`);
+                let quantity = parseInt(input.value);
+
+                if (this.classList.contains('plus')) {
+                    quantity++;
+                } else if (this.classList.contains('minus') && quantity > 1) {
+                    quantity--;
+                }
+
+                input.value = quantity;
+
+                // Отправляем форму
+                const form = input.closest('form');
+                form.submit();
+            });
+        });
+
+        // Обновление при изменении ввода
+        document.querySelectorAll('.quantity-input').forEach(input => {
+            input.addEventListener('change', function() {
+                if (this.value < 1) this.value = 1;
+                const form = this.closest('form');
+                form.submit();
+            });
+        });
+    });
+</script>
+{% endblock %}

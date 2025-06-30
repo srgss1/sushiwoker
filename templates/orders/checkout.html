@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Оформление заказа | SushiWoker{% endblock %}
+
+{% block content %}
+<section class="checkout">
+    <div class="container">
+        <h2 class="section-title">Оформление заказа</h2>
+
+        <div class="checkout-container">
+            <div class="order-summary">
+                <h3>Ваш заказ</h3>
+                <ul>
+                    {% for item in cart.items.all %}
+                    <li>
+                        {{ item.product.name }}
+                        <span>{{ item.quantity }} × {{ item.product.price }} ₽</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="totals">
+                    <div class="subtotal">
+                        <span>Сумма:</span>
+                        <span>{{ cart.total_price }} ₽</span>
+                    </div>
+                    <div class="delivery">
+                        <span>Доставка:</span>
+                        <span>150 ₽</span>
+                    </div>
+                    <div class="total">
+                        <strong>Итого:</strong>
+                        <strong>{{ cart.total_price|add:150 }} ₽</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout-form">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn">Оформить заказ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

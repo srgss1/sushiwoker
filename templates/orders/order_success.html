@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Заказ оформлен | SushiWoker{% endblock %}
+
+{% block content %}
+<section class="order-success">
+    <div class="container">
+        <div class="success-message">
+            <h2>Спасибо за заказ!</h2>
+            <p>Ваш заказ <strong>№{{ order.id }}</strong> успешно оформлен.</p>
+            <p>В ближайшее время с вами свяжется оператор для подтверждения заказа.</p>
+            <p>Статус заказа: <span class="status">{{ order.get_status_display }}</span></p>
+
+            <div class="order-details">
+                <h3>Детали заказа:</h3>
+                <p><strong>Имя:</strong> {{ order.name }}</p>
+                <p><strong>Телефон:</strong> {{ order.phone }}</p>
+                <p><strong>Адрес:</strong> {{ order.address }}</p>
+                {% if order.comment %}<p><strong>Комментарий:</strong> {{ order.comment }}</p>{% endif %}
+                <p><strong>Сумма заказа:</strong> {{ order.total_cost }} ₽</p>
+            </div>
+
+            <a href="{% url 'index' %}" class="btn">Вернуться на главную</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
