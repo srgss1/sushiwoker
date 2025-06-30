@@ -1,6 +1,11 @@
+from io import BytesIO
+
+from PIL import Image
+from django.core.files.base import ContentFile
 from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
+from django_resized import ResizedImageField
 
 
 class Category(models.Model):
@@ -47,11 +52,23 @@ class Product(models.Model):
         on_delete=models.CASCADE,
         related_name='products'
     )
-    image = models.ImageField(
+
+    # Основное изображение с автоматической оптимизацией
+    image = ResizedImageField(
         "Изображение",
         upload_to='products/',
-        default='products/placeholder.png'  # Путь к заглушке
+        size=[1200, 800],  # Максимальный размер
+        quality=85,  # Качество сжатия
+        crop=['middle', 'center'],  # Точка обрезки
+        force_format='WEBP',  # Современный формат
+        blank=True,
+        null=True
     )
+
+    # Изображения для разных разрешений
+    image_small = models.ImageField("Маленькое изображение", upload_to='products/small/', blank=True, null=True)
+    image_medium = models.ImageField("Среднее изображение", upload_to='products/medium/', blank=True, null=True)
+    
     is_popular = models.BooleanField("Популярный", default=False)
     is_new = models.BooleanField("Новинка", default=False)
     is_active = models.BooleanField("Активен", default=True)
@@ -66,23 +83,62 @@ class Product(models.Model):
         return f"{self.name} - {self.price}₽"
 
     def save(self, *args, **kwargs):
+        # Генерация slug
         if not self.slug:
             base_slug = slugify(self.name)
             unique_slug = base_slug
             counter = 1
 
-            # Гарантируем уникальность slug
             while Product.objects.filter(slug=unique_slug).exists():
                 unique_slug = f"{base_slug}-{counter}"
                 counter += 1
 
             self.slug = unique_slug
+
+        # Сохраняем объект, чтобы получить доступ к файлу изображения
         super().save(*args, **kwargs)
 
-    def get_absolute_url(self):
-        return reverse('product_detail', kwargs={'pk': self.pk})  # Используем pk как идентификатор
+        # Генерация ресайзов изображений
+        if self.image:
+            # Открываем основное изображение
+            img = Image.open(self.image.path)
 
-    def clean(self):
-        if not self.image:
-            self.image = 'products/placeholder.png'
-        super().clean()
+            # Маленький размер (480px по ширине, высота автоматически)
+            img_small = img.copy()
+            img_small.thumbnail((480, 480))
+            buffer_small = BytesIO()
+
+            # Сохраняем в формате WEBP
+            img_small.save(buffer_small, format='WEBP')
+
+            # Сохраняем в поле image_small
+            self.image_small.save(
+                f"{self.slug}_small.webp",
+                ContentFile(buffer_small.getvalue()),
+                save=False
+            )
+
+            # Средний размер (768px по ширине)
+            img_medium = img.copy()
+            img_medium.thumbnail((768, 768))
+            buffer_medium = BytesIO()
+            img_medium.save(buffer_medium, format='WEBP')
+
+            # Сохраняем в поле image_medium
+            self.image_medium.save(
+                f"{self.slug}_medium.webp",
+                ContentFile(buffer_medium.getvalue()),
+                save=False
+            )
+
+            # Сохраняем изменения
+            super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse('product_detail', kwargs={'pk': self.pk})
+
+    def image_aspect_ratio(self):
+        """Возвращает соотношение сторон в процентах для padding-bottom"""
+        if self.image and self.image.width and self.image.height:
+            return (self.image.height / self.image.width) * 100
+        return 66.66  # Значение по умолчанию 3:2 (200/300*100 ≈ 66.66)

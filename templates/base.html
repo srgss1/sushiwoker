@@ -5,22 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SushiWoker - {% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
 </head>
 <body>
 <header>
     <div class="container">
-        <div class="logo">
-            <h1>SushiWoker</h1>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
+                <h1>SushiWoker</h1>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="mainNav">
+                <a href="#menu">Меню</a>
+                <a href="#promotions">Акции</a>
+                <a href="#delivery">Доставка</a>
+                <a href="#contacts">Контакты</a>
+                <div class="phone">
+                    <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                </div>
+            </nav>
+
+            <div class="header-right">
+                <div class="phone">
+                    <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <nav>
-            <a href="#">Меню</a>
-            <a href="#">Акции</a>
-            <a href="#">Доставка</a>
-        </nav>
     </div>
 </header>
 
@@ -30,10 +57,20 @@
 
 <footer>
     <div class="container">
-        <p>© 2025 SushiWoker. Мытищи</p>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
+                <h2>SushiWoker</h2>
+            </div>
+            <div class="footer-info">
+                <p>© 2025 SushiWoker. Мытищи</p>
+                <p>Время работы: 10:00 - 23:00</p>
+                <p>Адрес: г. Мытищи, ул. Сушишная, д. 15</p>
+            </div>
+        </div>
     </div>
 </footer>
 
-<script src="/static/js/main.js"></script>
+<script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>

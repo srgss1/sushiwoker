@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Главная страница{% endblock %}
+{% block title %}Главная страница | SushiWoker{% endblock %}
 
 {% block content %}
+<!-- Герой-секция -->
 <section class="hero">
     <div class="container">
         <h2>Суши и роллы с доставкой в Мытищах</h2>
@@ -11,9 +12,10 @@
     </div>
 </section>
 
-<section id="menu" class="categories">
+<!-- Секция категорий -->
+<section class="categories" id="menu">
     <div class="container">
-        <h2>Категории</h2>
+        <h2 class="section-title">Наше меню</h2>
         <div class="category-filters">
             <button class="filter-btn active" data-category="all">Все</button>
             {% for category in categories %}
@@ -23,29 +25,110 @@
     </div>
 </section>
 
+<!-- Секция продуктов -->
 <section class="products">
     <div class="container">
-        <h2>Популярные товары</h2>
+        <div class="sorting">
+            <select id="sort-select">
+                <option value="default">По умолчанию</option>
+                <option value="price-asc">Цена по возрастанию</option>
+                <option value="price-desc">Цена по убыванию</option>
+                <option value="popular">По популярности</option>
+            </select>
+        </div>
         <div class="product-grid">
-            {% for product in popular_products %}
-            <div class="product-card" data-category="{{ product.category.slug }}">
-                <img
-                        {% if product.image %}
-                        src="{{ product.image.url }}"
-                        {% else %}
-                        src="{% static 'images/placeholder.png' %}"
-                        {% endif %}
+            {% for product in products %}
+            <div class="product-card"
+                 data-category="{{ product.category.slug }}"
+                 data-price="{{ product.price }}"
+                 data-popular="{{ product.is_popular|yesno:'true,false' }}">
+                <div class="image-container" style="padding-bottom: {{ product.image_aspect_ratio|default:66.66 }}%">
+                    <img
+                            {% if product.image %}
+                            src="{{ product.image_small.url }}"
+                            srcset="{{ product.image_small.url }} 480w, {{ product.image_medium.url }} 768w, {{ product.image.url }} 1200w"
+                            sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+                            {% else %}
+                            src="{% static 'images/placeholder.png' %}"
+                            {% endif %}
                         alt="{{ product.name }}"
-                >
-                <h3>{{ product.name }}</h3>
-                <p class="description">{{ product.description|truncatechars:50 }}</p>
-                <div class="price-weight">
-                    <span class="price">{{ product.price }} ₽</span>
-                    {% if product.weight %}<span class="weight">{{ product.weight }} г</span>{% endif %}
+                            loading="lazy"
+                    >
                 </div>
-                <button class="add-to-cart" data-product="{{ product.id }}">В корзину</button>
+                <div class="product-content">
+                    <div class="product-badges">
+                        {% if product.is_popular %}<span class="badge popular">Хит</span>{% endif %}
+                        {% if product.is_new %}<span class="badge new">Новинка</span>{% endif %}
+                    </div>
+                    <h3>{{ product.name }}</h3>
+                    <p class="description">{{ product.description|truncatechars:50 }}</p>
+                    <div class="price-weight">
+                        <span class="price">{{ product.price }} ₽</span>
+                        {% if product.weight %}<span class="weight">{{ product.weight }} г</span>{% endif %}
+                    </div>
+                    <button class="add-to-cart" data-product="{{ product.id }}">В корзину</button>
+                </div>
             </div>
             {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Секция акций -->
+<section class="promotions" id="promotions">
+    <div class="container">
+        <h2 class="section-title">Акции</h2>
+        <div class="promotion-grid">
+            <div class="promotion-card">
+                <h3>Скидка 20% на первый заказ</h3>
+                <p>По промокоду: SUSHI20</p>
+            </div>
+            <div class="promotion-card">
+                <h3>Бесплатная доставка</h3>
+                <p>При заказе от 1000 рублей</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Секция доставки -->
+<section class="delivery" id="delivery">
+    <div class="container">
+        <h2 class="section-title">Доставка</h2>
+        <div class="delivery-info">
+            <div class="delivery-map">
+                <div id="map" style="height: 400px; background: #eee; border-radius: 8px;"></div>
+            </div>
+            <div class="delivery-text">
+                <h3>Доставляем по Мытищам</h3>
+                <p>Время доставки: 60-90 минут</p>
+                <p>Минимальный заказ: 500 рублей</p>
+                <p>Стоимость доставки: 150 рублей (бесплатно от 1000 рублей)</p>
+                <p>Принимаем к оплате: наличные, карты, онлайн</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Секция отзывов -->
+<section class="reviews">
+    <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <h3>Анна</h3>
+                    <div class="rating">★★★★★</div>
+                </div>
+                <p>Очень вкусные роллы! Заказываем регулярно, всегда свежие и быстро привозят.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <h3>Михаил</h3>
+                    <div class="rating">★★★★☆</div>
+                </div>
+                <p>Хорошее соотношение цена/качество. Филадельфия просто восхитительна!</p>
+            </div>
         </div>
     </div>
 </section>
