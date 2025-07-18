@@ -77,10 +77,16 @@ def remove_from_cart(request, item_id):
 @require_POST
 def update_cart_item(request, item_id):
     """Обновляет количество товара в корзине"""
-    # Логируем входящий запрос
     logger = logging.getLogger(__name__)
+
+    # Логирование входящего запроса
+    try:
+        body = request.body.decode('utf-8')
+    except UnicodeDecodeError:
+        body = "Binary data"
+    
     logger.info(f"Получен запрос на обновление: item_id={item_id}, "
-                f"POST={request.POST}, body={request.body.decode('utf-8')}, "
+                f"POST={request.POST}, body={body}, "
                 f"user={request.user}, session={request.session.session_key}")
                 
     cart = get_cart(request)
@@ -95,7 +101,14 @@ def update_cart_item(request, item_id):
         }, status=404)
 
     try:
-        quantity = int(request.POST.get('quantity', 1))
+        # Обработка JSON-данных
+        if request.content_type == 'application/json':
+            data = json.loads(request.body)
+            quantity = int(data.get('quantity', 1))
+        else:
+            # Обработка form-data
+            quantity = int(request.POST.get('quantity', 1))
+            
         if quantity < 1:
             return JsonResponse({
                 'success': False,
@@ -111,13 +124,21 @@ def update_cart_item(request, item_id):
             'cart_total': float(cart.total_price),
             'total_items': cart.total_items
         })
+
         logger.info(f"Успешное обновление: item_id={item_id}, quantity={quantity}, "
                     f"item_total={cart_item.total_price}, cart_total={cart.total_price}")
-        
-    except ValueError:
+
+    except (ValueError, TypeError) as e:
+        logger.error(f"Ошибка обработки количества: {e}")
         return JsonResponse({
             'success': False,
             'error': 'Некорректное значение количества'
+        }, status=400)
+    except json.JSONDecodeError as e:
+        logger.error(f"Ошибка декодирования JSON: {e}")
+        return JsonResponse({
+            'success': False,
+            'error': 'Неверный формат запроса'
         }, status=400)
 
 def cart_view(request):

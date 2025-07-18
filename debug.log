@@ -3030,3 +3030,1593 @@ C:\sushiwoker\orders\urls.py changed, reloading.
 Watching for file changes with StatReloader
 C:\sushiwoker\orders\signals.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23046
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752854059 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 56478)
+Update request for product 13
+Updating quantity to 4 for product 13
+Сохранение CartItem: id=67, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=67, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=67, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=67, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 22504
+"GET /static/css/style.css?v=1752854069 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['k4vg1f2ofIwVjcU1nJAJKDwv4bHesewx8caK3IWlUQWGvSXLPzfDBU6QM6LRt9cg'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=k4vg1f2ofIwVjcU1nJAJKDwv4bHesewx8caK3IWlUQWGvSXLPzfDBU6QM6LRt9cg&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 22504
+"GET /static/css/style.css?v=1752854075 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['EUniz70CyNzvXlLHvrAQz0vlARLDEn7gs22MBAUzdVZg91OrXhfKqh5GiMPgFiNZ'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=EUniz70CyNzvXlLHvrAQz0vlARLDEn7gs22MBAUzdVZg91OrXhfKqh5GiMPgFiNZ&quantity=3, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=3, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['EUniz70CyNzvXlLHvrAQz0vlARLDEn7gs22MBAUzdVZg91OrXhfKqh5GiMPgFiNZ'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=EUniz70CyNzvXlLHvrAQz0vlARLDEn7gs22MBAUzdVZg91OrXhfKqh5GiMPgFiNZ&quantity=3, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=3, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 22505
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752854083 HTTP/1.1" 200 15360
+- Broken pipe from ('127.0.0.1', 56505)
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=4, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Сохранение CartItem: id=69, product=12, quantity=4, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=Kc1nKqtr8VqZ2TKAhTMilTEKSdYwDG28ykGRMTnoN3QKezNkJJrccae5A829EBIR&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 22504
+"GET /static/css/style.css?v=1752854116 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['wKt2PEH80Wyy1ROoCSqCiZqMcDg7MQy1kS8wR7B5F4YjdxR84I5w9g07UykKNLeK'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=wKt2PEH80Wyy1ROoCSqCiZqMcDg7MQy1kS8wR7B5F4YjdxR84I5w9g07UykKNLeK&quantity=3, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Сохранение CartItem: id=69, product=12, quantity=3, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 22220
+"GET /static/css/style.css?v=1752854964 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10752
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+- Broken pipe from ('127.0.0.1', 57401)
+- Broken pipe from ('127.0.0.1', 57403)
+Сохранение CartItem: id=71, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=71, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=71, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=72, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23046
+"GET /static/css/style.css?v=1752854973 HTTP/1.1" 200 15360
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=71, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=71, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=73, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=73, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=73, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=73, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=73, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=74, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=74, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=74, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=75, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=75, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=75, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=74, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=74, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=75, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=75, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22220
+"GET /static/css/style.css?v=1752854998 HTTP/1.1" 200 15360
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 14130
+"GET /static/js/main.js HTTP/1.1" 200 17716
+"GET /static/css/style.css?v=1752856091 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":6}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":7}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+"GET /orders/cart/ HTTP/1.1" 200 14129
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752856107 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+"GET /orders/cart/ HTTP/1.1" 200 14129
+"GET /static/css/style.css?v=1752856111 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 58329)
+"GET /orders/cart/ HTTP/1.1" 200 14129
+"GET /static/css/style.css?v=1752856113 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 22633
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752856116 HTTP/1.1" 200 15360
+- Broken pipe from ('127.0.0.1', 58338)
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23046
+"GET /static/css/style.css?v=1752856151 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 200 10752
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=76, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=76, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 24319
+"GET /static/css/style.css?v=1752856156 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 58343)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+- Broken pipe from ('127.0.0.1', 58377)
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=J3ELpjbmBslqCy16HkcwEZYeVbkbyb6GxbjfrM5jgALbOe4Q9aRqvgyzD6oOz6Mp&quantity=3, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=3, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 58385)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /orders/cart/ HTTP/1.1" 200 22487
+"GET /static/css/style.css?v=1752867628 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10913
+"GET /orders/cart/ HTTP/1.1" 200 24319
+"GET /static/css/style.css?v=1752867633 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10913
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51421)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['2fZcWdDSeCz1wuahV0kG4wu76TdHFBvAQnEGYGxPTKZMIad1nQZAVN4sOOhkGwbj'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=2fZcWdDSeCz1wuahV0kG4wu76TdHFBvAQnEGYGxPTKZMIad1nQZAVN4sOOhkGwbj&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=4, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51420)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 24319
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752867645 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=5, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW'], 'quantity': ['6']}>, body=csrfmiddlewaretoken=M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW&quantity=6, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=6, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":8}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW'], 'quantity': ['7']}>, body=csrfmiddlewaretoken=M04qOAV3NXxzERKknaULXlf0f4ySO3WdA8JUQ3P0s5XkQxN4P0zFOCPlXZCvPYCW&quantity=7, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Сохранение CartItem: id=76, product=13, quantity=7, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 24319
+"GET /static/js/main.js HTTP/1.1" 200 10752
+"GET /static/css/style.css?v=1752867688 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51512)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['7bum4IwsOorOnMEDEOhLyz6JJPtB157hVj9Q6bqptwRzzsHn6EWFpQG4rKxe20N0'], 'quantity': ['6']}>, body=csrfmiddlewaretoken=7bum4IwsOorOnMEDEOhLyz6JJPtB157hVj9Q6bqptwRzzsHn6EWFpQG4rKxe20N0&quantity=6, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Сохранение CartItem: id=76, product=13, quantity=6, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 15944
+"GET /static/css/style.css?v=1752867778 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=5, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51588)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=4, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51593)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51594)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=5, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB'], 'quantity': ['6']}>, body=csrfmiddlewaretoken=XjViZtp3JpNvZsQd3VZmTK8a6SF1lBWSLrAM1Wj0oxdgb8TXvLEgK1IvONJEmwCB&quantity=6, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=6, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51602)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 15889
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752868203 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE'], 'quantity': ['1']}>, body=csrfmiddlewaretoken=2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE&quantity=1, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=2rhGDerRWahRmFSOZIehGo5xxWzH0bQVQzWaFHlOBiHCylVyryTbxFFSfRDk16wE&quantity=3, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=3, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51944)
+"GET /orders/cart/ HTTP/1.1" 200 15889
+"GET /static/css/style.css?v=1752868221 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51947)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['cSchA3C0MWhDR3reQ96N4UvTBaAnynSZ00RLCwwXr4Ho3JuYiZLHVb5ej5E0ziyI'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=cSchA3C0MWhDR3reQ96N4UvTBaAnynSZ00RLCwwXr4Ho3JuYiZLHVb5ej5E0ziyI&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=5, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51952)
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {'csrfmiddlewaretoken': ['cSchA3C0MWhDR3reQ96N4UvTBaAnynSZ00RLCwwXr4Ho3JuYiZLHVb5ej5E0ziyI'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=cSchA3C0MWhDR3reQ96N4UvTBaAnynSZ00RLCwwXr4Ho3JuYiZLHVb5ej5E0ziyI&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=4, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 15889
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752868238 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {'csrfmiddlewaretoken': ['sRrdbJortibMYowDuHPLTRQEf0vVs1NsgZ6Hdcio8qBxa4znWxuFK8qZXVzytWtb'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=sRrdbJortibMYowDuHPLTRQEf0vVs1NsgZ6Hdcio8qBxa4znWxuFK8qZXVzytWtb&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51966)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 15889
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 51974)
+"GET /static/css/style.css?v=1752868242 HTTP/1.1" 200 15360
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 15889
+"GET /static/css/style.css?v=1752868525 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52235)
+"GET /static/js/main.js HTTP/1.1" 200 17716
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":6}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":7}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":6}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":7}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+"GET /orders/cart/ HTTP/1.1" 200 15886
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752868544 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 15886
+"GET /static/css/style.css?v=1752868546 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 15886
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752868547 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":6}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":7}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":8}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":9}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":10}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":11}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":12}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":13}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":14}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":15}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":16}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":17}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=69, POST=<QueryDict: {}>, body={"quantity":18}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/update/69/ HTTP/1.1" 200 77
+"GET /orders/cart/ HTTP/1.1" 200 15886
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752868562 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=76, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=76, product=13, quantity=1, queries=1
+"POST /orders/cart/update/76/ HTTP/1.1" 200 77
+"POST /orders/cart/remove/76/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/69/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 11309
+"GET /static/css/style.css?v=1752868576 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 22220
+"GET /static/css/style.css?v=1752868577 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52236)
+Сохранение CartItem: id=77, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=78, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=80, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752868603 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 19540
+"GET /static/css/style.css?v=1752868606 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 19540
+"GET /static/css/style.css?v=1752868610 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52259)
+Получен запрос на обновление: item_id=80, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=80, product=11, quantity=1, queries=1
+"POST /orders/cart/update/80/ HTTP/1.1" 200 78
+"GET /orders/cart/ HTTP/1.1" 200 19540
+"GET /static/css/style.css?v=1752868614 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 19595
+"GET /static/css/style.css?v=1752868675 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=80, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=80, product=11, quantity=1, queries=1
+"POST /orders/cart/update/80/ HTTP/1.1" 200 78
+"GET /orders/cart/ HTTP/1.1" 200 19595
+"GET /static/css/style.css?v=1752868679 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"POST /orders/cart/remove/80/ HTTP/1.1" 200 57
+"GET / HTTP/1.1" 200 23459
+"GET /static/css/style.css?v=1752868686 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=81, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752868697 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869312 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 17783
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 13777
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869329 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52926)
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 22633
+"GET /static/css/style.css?v=1752869338 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=84, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18254
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869353 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869369 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 52952)
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869375 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18252
+"GET /static/css/style.css?v=1752869379 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869394 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869400 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52941)
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18251
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752869408 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869414 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18251
+"GET /static/css/style.css?v=1752869419 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752869421 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18251
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869424 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869428 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18251
+"GET /static/css/style.css?v=1752869431 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752869438 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 18251
+"GET /static/css/style.css?v=1752869442 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869448 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 4 for product 13
+Сохранение CartItem: id=82, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=83, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=84, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18256
+"GET /static/css/style.css?v=1752869460 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869468 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18251
+"GET /static/css/style.css?v=1752869473 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869479 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18255
+"GET /static/css/style.css?v=1752869488 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23873
+"GET /static/css/style.css?v=1752869493 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 53015)
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18254
+"GET /static/css/style.css?v=1752869498 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869505 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 18252
+"GET /static/css/style.css?v=1752869512 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869514 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869516 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 52998)
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869517 HTTP/1.1" 200 15360
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=84, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18252
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869521 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869525 HTTP/1.1" 200 15360
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18255
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869539 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869543 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18252
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869549 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869560 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18252
+"GET /static/css/style.css?v=1752869582 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752869594 HTTP/1.1" 200 15360
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18253
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752869600 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752869651 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869973 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18252
+"GET /static/css/style.css?v=1752869979 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752869989 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18255
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752870001 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752870009 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 63771)
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 4 for product 13
+Сохранение CartItem: id=82, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=83, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=84, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18256
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752870022 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=84, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=84, product=11, quantity=5, queries=1
+"POST /orders/cart/update/84/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=83, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=83, product=12, quantity=5, queries=1
+"POST /orders/cart/update/83/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=5, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=5, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 80
+"GET / HTTP/1.1" 200 23873
+"GET /static/css/style.css?v=1752870028 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=84, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=84, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=84, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 1 for product 11
+Сохранение CartItem: id=84, product=11, quantity=1, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=83, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=83, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=83, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=83, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 15258
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752870038 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=4, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23046
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752870046 HTTP/1.1" 200 15360
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 15256
+"GET /static/css/style.css?v=1752870053 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23046
+"GET /static/css/style.css?v=1752870068 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 63806)
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23046
+"GET /static/css/style.css?v=1752870305 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 200 17254
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=79, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 6 for product 14
+Сохранение CartItem: id=79, product=14, quantity=6, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=85, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=85, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=79, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=79, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 16751
+"GET /static/css/style.css?v=1752870318 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64068)
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=85, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=85, product=12, quantity=3, queries=1
+"POST /orders/cart/update/85/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 23459
+"GET /static/css/style.css?v=1752870325 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 16752
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752870332 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23459
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752870334 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23459
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752870550 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /media/products/placeholder.png HTTP/1.1" 200 78927
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=85, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=85, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 4 for product 13
+Сохранение CartItem: id=82, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23459
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752870725 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=79, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 16752
+"GET /static/css/style.css?v=1752870733 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23459
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752870741 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64418)
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
