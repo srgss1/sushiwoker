@@ -1,0 +1,3032 @@
+Watching for file changes with StatReloader
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1751475781 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1751475784 HTTP/1.1" 200 14730
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/core/category/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/category/ HTTP/1.1" 200 4406
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2684
+"POST /admin/login/?next=/admin/core/category/ HTTP/1.1" 302 0
+"GET /admin/core/category/ HTTP/1.1" 200 16213
+"GET /static/admin/css/base.css HTTP/1.1" 200 22120
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /orders/cart/ HTTP/1.1" 200 22363
+"GET /static/css/style.css?v=1751989334 HTTP/1.1" 200 14730
+"GET /static/favicon.ico HTTP/1.1" 404 1847
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751989337 HTTP/1.1" 200 14730
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 22363
+"GET /static/css/style.css?v=1751989339 HTTP/1.1" 200 14730
+"GET /media/products/small/-1_small.webp HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":1}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['aSR8WDOIx1YtEnePUrMhuvJLLt0efD9ziF1vLW2vWJKFY4RGJr9Pt2tHdrocF2rR'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=aSR8WDOIx1YtEnePUrMhuvJLLt0efD9ziF1vLW2vWJKFY4RGJr9Pt2tHdrocF2rR&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Internal Server Error: /orders/cart/update/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 94, in update_cart_item
+    cart_item.save()
+  File "C:\sushiwoker\orders\models.py", line 62, in save
+    logger = logging.getLogger(__name__)
+             ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+Internal Server Error: /orders/cart/update/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 94, in update_cart_item
+    cart_item.save()
+  File "C:\sushiwoker\orders\models.py", line 62, in save
+    logger = logging.getLogger(__name__)
+             ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+"POST /orders/cart/update/11/ HTTP/1.1" 500 75164
+"POST /orders/cart/update/11/ HTTP/1.1" 500 76099
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":3}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['aSR8WDOIx1YtEnePUrMhuvJLLt0efD9ziF1vLW2vWJKFY4RGJr9Pt2tHdrocF2rR'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=aSR8WDOIx1YtEnePUrMhuvJLLt0efD9ziF1vLW2vWJKFY4RGJr9Pt2tHdrocF2rR&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Internal Server Error: /orders/cart/update/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 94, in update_cart_item
+    cart_item.save()
+  File "C:\sushiwoker\orders\models.py", line 62, in save
+    logger = logging.getLogger(__name__)
+             ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+Internal Server Error: /orders/cart/update/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\.venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 94, in update_cart_item
+    cart_item.save()
+  File "C:\sushiwoker\orders\models.py", line 62, in save
+    logger = logging.getLogger(__name__)
+             ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+"POST /orders/cart/update/11/ HTTP/1.1" 500 76099
+"POST /orders/cart/update/11/ HTTP/1.1" 500 75164
+C:\sushiwoker\orders\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 22362
+"GET /static/css/style.css?v=1751989756 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":1}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR'], 'quantity': ['1']}>, body=csrfmiddlewaretoken=Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR&quantity=1, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":3}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Сохранение CartItem: id=11, product=12, quantity=2, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":5}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=Ex6wLNhUZ6sby51r70dpS5BK27osaL1zMkgTA6vHoOenSMEiW0AXRClGu5MqAajR&quantity=4, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=4, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"GET /orders/cart/ HTTP/1.1" 200 22365
+"GET /static/css/style.css?v=1751993911 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":6}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":4}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":2}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2'], 'quantity': ['3']}>, body=csrfmiddlewaretoken=TXGdM0J1VDiQdnq3uUxwjzaSOpPkrDFK1KQABjXOkl42x43UjUU4i6UOgndiR2X2&quantity=3, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=3, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 22363
+"GET /static/css/style.css?v=1751993943 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":5}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['Ny6umCHxYLHfhblWCefyjv1sEn0zBZSZVlgRbVVknttrBSYNreC6i2Lo6lox1oah'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=Ny6umCHxYLHfhblWCefyjv1sEn0zBZSZVlgRbVVknttrBSYNreC6i2Lo6lox1oah&quantity=4, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Сохранение CartItem: id=11, product=12, quantity=4, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":3}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['Ny6umCHxYLHfhblWCefyjv1sEn0zBZSZVlgRbVVknttrBSYNreC6i2Lo6lox1oah'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=Ny6umCHxYLHfhblWCefyjv1sEn0zBZSZVlgRbVVknttrBSYNreC6i2Lo6lox1oah&quantity=4, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=4, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"GET /orders/cart/ HTTP/1.1" 200 22365
+"GET /static/css/style.css?v=1751993952 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":6}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=yplFVhrrsHHyyPw4SAgYj3x4ZRXpD6jjGcv2KAFeRptKSw9VHADwiAh0rPln3vBB&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2684
+"GET /orders/cart/ HTTP/1.1" 200 22365
+"GET /static/css/style.css?v=1751993964 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":3}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC&quantity=4, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Сохранение CartItem: id=11, product=12, quantity=4, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 78
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":5}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC&quantity=4, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=4, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":7}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC'], 'quantity': ['6']}>, body=csrfmiddlewaretoken=MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC&quantity=6, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=6, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"GET /admin/core/category/ HTTP/1.1" 200 16213
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":5}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC'], 'quantity': ['6']}>, body=csrfmiddlewaretoken=MdsCQ1eJCCLvC57pi6083DmOA3i9mKukU0CZFksw1kxHWMKg76nG2a6K21G7M9MC&quantity=6, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 77
+Сохранение CartItem: id=11, product=12, quantity=6, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994313 HTTP/1.1" 200 14730
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 15466
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /static/favicon.ico HTTP/1.1" 404 1847
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751994317 HTTP/1.1" 200 14730
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994319 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751994327 HTTP/1.1" 200 14730
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994329 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994686 HTTP/1.1" 200 14730
+"GET /media/products/small/-3_small.webp HTTP/1.1" 304 0
+"GET /media/products/small/-2_small.webp HTTP/1.1" 304 0
+"GET /media/products/small/-4_small.webp HTTP/1.1" 304 0
+Сохранение CartItem: id=21, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=22, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751994693 HTTP/1.1" 200 14730
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751994696 HTTP/1.1" 200 14730
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751994841 HTTP/1.1" 200 14730
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751994843 HTTP/1.1" 200 14730
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751994861 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751994874 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994875 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751994888 HTTP/1.1" 200 14730
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2795
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995203 HTTP/1.1" 200 14730
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 15466
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751995205 HTTP/1.1" 200 14730
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995207 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995456 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2795
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995462 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995479 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995497 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995542 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995571 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751995782 HTTP/1.1" 200 14730
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {}>, body={"quantity":4}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=11, product=12, quantity=1, queries=1
+Получен запрос на обновление: item_id=11, POST=<QueryDict: {'csrfmiddlewaretoken': ['1IEGw1nc8E18Thpy4asmTuwEdgcTfyKU9vO3lkBZxmNkdY2pTaPUS1gAFeARFX2c'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=1IEGw1nc8E18Thpy4asmTuwEdgcTfyKU9vO3lkBZxmNkdY2pTaPUS1gAFeARFX2c&quantity=5, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+"POST /orders/cart/update/11/ HTTP/1.1" 200 78
+Сохранение CartItem: id=11, product=12, quantity=5, queries=1
+"POST /orders/cart/update/11/ HTTP/1.1" 200 79
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995793 HTTP/1.1" 200 14730
+Сохранение CartItem: id=21, product=13, quantity=2, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 25995
+"GET /static/css/style.css?v=1751995798 HTTP/1.1" 200 14730
+"POST /orders/cart/remove/11/ HTTP/1.1" 200 57
+"POST /orders/cart/remove/21/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/22/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751995808 HTTP/1.1" 200 14730
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751995809 HTTP/1.1" 200 14730
+Сохранение CartItem: id=23, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1751995814 HTTP/1.1" 200 14730
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1751995827 HTTP/1.1" 200 14730
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1751999821 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1751999915 HTTP/1.1" 200 14730
+Watching for file changes with StatReloader
+"GET /admin/core/category/ HTTP/1.1" 200 16213
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1752072957 HTTP/1.1" 200 14730
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {}>, body={"quantity":3}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=1, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {'csrfmiddlewaretoken': ['NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=2, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {}>, body={"quantity":1}, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=1, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {'csrfmiddlewaretoken': ['NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=2, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {'csrfmiddlewaretoken': ['NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=NzfTUP4oZ47YQ8JMnHOJzcdy27wcXCdlVmpgJ8iboMTaaPmDcHbhyJXuu5Uan1vD&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=2, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1752072970 HTTP/1.1" 200 14730
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3331
+"GET / HTTP/1.1" 200 21919
+"GET /static/css/style.css?v=1752073143 HTTP/1.1" 200 14730
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3331
+"GET /admin/core/category/ HTTP/1.1" 200 16213
+"GET /admin/core/category/ HTTP/1.1" 200 16213
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22536
+"GET /static/js/main.js HTTP/1.1" 200 10845
+"GET /static/css/style.css?v=1752769000 HTTP/1.1" 200 15360
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2457
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752769027 HTTP/1.1" 200 15360
+"GET /media/products/small/-2_small.webp HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 200 10845
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {'csrfmiddlewaretoken': ['NMSftKxpJ9ttjwGajRdVQPGqPFJqUSMfVz2Ci3Lc8RfFDdj18RAtPmqmhD7okh4x'], 'quantity': ['1']}>, body=csrfmiddlewaretoken=NMSftKxpJ9ttjwGajRdVQPGqPFJqUSMfVz2Ci3Lc8RfFDdj18RAtPmqmhD7okh4x&quantity=1, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=1, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=23, POST=<QueryDict: {'csrfmiddlewaretoken': ['NMSftKxpJ9ttjwGajRdVQPGqPFJqUSMfVz2Ci3Lc8RfFDdj18RAtPmqmhD7okh4x'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=NMSftKxpJ9ttjwGajRdVQPGqPFJqUSMfVz2Ci3Lc8RfFDdj18RAtPmqmhD7okh4x&quantity=2, user=admin, session=oaqsr4lx7lycepwpjm4dx7qmpgb9rcpf
+Сохранение CartItem: id=23, product=13, quantity=2, queries=1
+"POST /orders/cart/update/23/ HTTP/1.1" 200 77
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752769040 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 304 0
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752769051 HTTP/1.1" 200 15360
+Сохранение CartItem: id=24, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71157
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71157
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71157
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71157
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71157
+Сохранение CartItem: id=25, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Сохранение CartItem: id=26, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 500 71161
+Internal Server Error: /orders/cart/update_by_product/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 500 71161
+Internal Server Error: /orders/cart/update_by_product/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 500 71161
+Internal Server Error: /orders/cart/update_by_product/11/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 500 71161
+"GET /orders/cart/ HTTP/1.1" 200 27831
+"GET /static/css/style.css?v=1752769068 HTTP/1.1" 200 15360
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=27, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=28, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=29, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=30, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26014
+"GET /static/css/style.css?v=1752769147 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Сохранение CartItem: id=31, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71141
+"GET /orders/cart/ HTTP/1.1" 200 27831
+"GET /static/css/style.css?v=1752769158 HTTP/1.1" 200 15360
+C:\sushiwoker\orders\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752769911 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752769918 HTTP/1.1" 200 15360
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/11/
+"POST /orders/cart/add/11/ HTTP/1.1" 403 3345
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2457
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770134 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10845
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 304 0
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 304 0
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1752770138 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770139 HTTP/1.1" 200 15360
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3345
+"GET / HTTP/1.1" 200 23836
+"GET /static/css/style.css?v=1752770156 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Сохранение CartItem: id=23, product=13, quantity=3, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26018
+"GET /static/css/style.css?v=1752770164 HTTP/1.1" 200 15360
+"POST /orders/cart/remove/31/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/26/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/24/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1752770171 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770172 HTTP/1.1" 200 15360
+Сохранение CartItem: id=32, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1752770179 HTTP/1.1" 200 15360
+"GET /orders/checkout/ HTTP/1.1" 200 11095
+"GET /static/css/style.css?v=1752770183 HTTP/1.1" 200 15360
+"POST /orders/cart/remove/32/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1752770189 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770190 HTTP/1.1" 200 15360
+Сохранение CartItem: id=33, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET /orders/cart/ HTTP/1.1" 200 22342
+"GET /static/css/style.css?v=1752770196 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770199 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770202 HTTP/1.1" 200 15360
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770209 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770211 HTTP/1.1" 200 15360
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770240 HTTP/1.1" 200 15360
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2457
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770497 HTTP/1.1" 200 15360
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 10845
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=34, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 173, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET / HTTP/1.1" 200 22861
+"GET /static/css/style.css?v=1752770507 HTTP/1.1" 200 15360
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2457
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770530 HTTP/1.1" 200 15360
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 10845
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+"GET /orders/cart/ HTTP/1.1" 200 19596
+"GET /static/css/style.css?v=1752770538 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752770539 HTTP/1.1" 200 15360
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752771276 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10645
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Watching for file changes with StatReloader
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752771514 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10645
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+"GET / HTTP/1.1" 200 22536
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/css/style.css?v=1752834353 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10645
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834363 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834364 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834365 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834366 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/css/style.css?v=1752834409 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10645
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834418 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752834441 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752847115 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 22536
+"GET /static/css/style.css?v=1752847117 HTTP/1.1" 200 15360
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/12/
+"POST /orders/cart/add/12/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/13/
+"POST /orders/cart/add/13/ HTTP/1.1" 403 3345
+Forbidden (CSRF cookie not set.): /orders/cart/add/14/
+"POST /orders/cart/add/14/ HTTP/1.1" 403 3345
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847379 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10513
+Add to cart request for product 13
+Cart ID: 8, User: AnonymousUser
+Сохранение CartItem: id=35, product=13, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71138
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71138
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71138
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847393 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847394 HTTP/1.1" 200 15360
+Add to cart request for product 13
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=36, product=13, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71108
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71108
+"GET /orders/cart/ HTTP/1.1" 200 22443
+"GET /static/css/style.css?v=1752847402 HTTP/1.1" 200 15360
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /static/js/main.js HTTP/1.1" 304 0
+Получен запрос на обновление: item_id=35, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=6amdcfrkdtz9hy88rwhsjybk71fh5ruk
+Сохранение CartItem: id=35, product=13, quantity=1, queries=1
+Получен запрос на обновление: item_id=35, POST=<QueryDict: {'csrfmiddlewaretoken': ['R3hXfyTh87nzAG3MJFbArS4HoVOR1rc7S3nDsatKWBRbVShChH1YoQRE9tqixhzz'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=R3hXfyTh87nzAG3MJFbArS4HoVOR1rc7S3nDsatKWBRbVShChH1YoQRE9tqixhzz&quantity=2, user=AnonymousUser, session=6amdcfrkdtz9hy88rwhsjybk71fh5ruk
+"POST /orders/cart/update/35/ HTTP/1.1" 200 77
+Сохранение CartItem: id=35, product=13, quantity=2, queries=1
+"POST /orders/cart/update/35/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=35, POST=<QueryDict: {'csrfmiddlewaretoken': ['R3hXfyTh87nzAG3MJFbArS4HoVOR1rc7S3nDsatKWBRbVShChH1YoQRE9tqixhzz'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=R3hXfyTh87nzAG3MJFbArS4HoVOR1rc7S3nDsatKWBRbVShChH1YoQRE9tqixhzz&quantity=4, user=AnonymousUser, session=6amdcfrkdtz9hy88rwhsjybk71fh5ruk
+Сохранение CartItem: id=35, product=13, quantity=4, queries=1
+"POST /orders/cart/update/35/ HTTP/1.1" 200 79
+"GET /admin/core/category/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/category/ HTTP/1.1" 200 4391
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/core/category/ HTTP/1.1" 302 0
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+CartItem not found: item_id=35, cart_id=1
+Not Found: /orders/cart/remove/35/
+"POST /orders/cart/remove/35/ HTTP/1.1" 404 161
+"GET /orders/cart/ HTTP/1.1" 200 22443
+"GET /static/css/style.css?v=1752847449 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"POST /orders/cart/remove/34/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19697
+"GET /static/css/style.css?v=1752847453 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847454 HTTP/1.1" 200 15360
+Add to cart request for product 12
+Cart ID: 1, User: admin
+Сохранение CartItem: id=37, product=12, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Add to cart request for product 13
+Cart ID: 1, User: admin
+Сохранение CartItem: id=38, product=13, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Add to cart request for product 14
+Cart ID: 1, User: admin
+Сохранение CartItem: id=39, product=14, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Add to cart request for product 11
+Cart ID: 1, User: admin
+Сохранение CartItem: id=40, product=11, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 188, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71137
+"GET / HTTP/1.1" 200 23937
+"GET /static/css/style.css?v=1752847466 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 23937
+"GET /static/css/style.css?v=1752847469 HTTP/1.1" 200 15360
+Add to cart request for product 13
+Cart ID: 1, User: admin
+Сохранение CartItem: id=38, product=13, quantity=2, queries=1
+Increased quantity to 2
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Add to cart request for product 12
+Cart ID: 1, User: admin
+Сохранение CartItem: id=37, product=12, quantity=2, queries=1
+Increased quantity to 2
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Add to cart request for product 14
+Cart ID: 1, User: admin
+Сохранение CartItem: id=39, product=14, quantity=2, queries=1
+Increased quantity to 2
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847530 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847531 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847533 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 22443
+"GET /static/css/style.css?v=1752847535 HTTP/1.1" 200 15360
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847538 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847543 HTTP/1.1" 200 15360
+Add to cart request for product 14
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=41, product=14, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847547 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 24260
+"GET /static/css/style.css?v=1752847551 HTTP/1.1" 200 15360
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847552 HTTP/1.1" 200 15360
+Add to cart request for product 11
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=42, product=11, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Add to cart request for product 14
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=41, product=14, quantity=2, queries=1
+Increased quantity to 2
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Add to cart request for product 13
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=36, product=13, quantity=2, queries=1
+Increased quantity to 2
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23612
+"GET /static/css/style.css?v=1752847560 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 26099
+"GET /static/css/style.css?v=1752847562 HTTP/1.1" 200 15360
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"POST /orders/cart/remove/41/ HTTP/1.1" 200 57
+"POST /orders/cart/remove/36/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/42/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19697
+"GET /static/css/style.css?v=1752847572 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847573 HTTP/1.1" 200 15360
+Add to cart request for product 13
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=43, product=13, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847577 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847578 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847579 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847583 HTTP/1.1" 200 15360
+Add to cart request for product 14
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=44, product=14, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847586 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847587 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23287
+"GET /orders/cart/ HTTP/1.1" 200 24260
+"GET /static/css/style.css?v=1752847588 HTTP/1.1" 200 15360
+"POST /orders/cart/remove/44/ HTTP/1.1" 200 56
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847591 HTTP/1.1" 200 15360
+Add to cart request for product 12
+Cart ID: 10, User: AnonymousUser
+Сохранение CartItem: id=45, product=12, quantity=1, queries=1
+Created new cart item
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847596 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847597 HTTP/1.1" 200 15360
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847820 HTTP/1.1" 200 15360
+Сохранение CartItem: id=43, product=13, quantity=2, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71108
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71108
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71108
+"GET /orders/cart/ HTTP/1.1" 200 24278
+"GET /static/css/style.css?v=1752847825 HTTP/1.1" 200 15360
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"POST /orders/cart/remove/43/ HTTP/1.1" 200 56
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847832 HTTP/1.1" 200 15360
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71128
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71128
+Сохранение CartItem: id=46, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71112
+"GET /orders/cart/ HTTP/1.1" 200 26095
+"GET /static/css/style.css?v=1752847846 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23612
+"GET /static/css/style.css?v=1752847850 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847883 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10513
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+Сохранение CartItem: id=48, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71140
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71140
+"GET /orders/cart/ HTTP/1.1" 200 22443
+"GET /static/css/style.css?v=1752847889 HTTP/1.1" 200 15360
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847891 HTTP/1.1" 200 15360
+Сохранение CartItem: id=49, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71160
+Internal Server Error: /orders/cart/update_by_product/12/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 500 71160
+"GET /orders/cart/ HTTP/1.1" 200 24276
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /static/css/style.css?v=1752847897 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23287
+"GET /static/css/style.css?v=1752847899 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 24276
+"GET /static/css/style.css?v=1752847907 HTTP/1.1" 200 15360
+"POST /orders/cart/remove/48/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/49/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19697
+"GET /static/css/style.css?v=1752847911 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22637
+"GET /static/css/style.css?v=1752847912 HTTP/1.1" 200 15360
+Сохранение CartItem: id=50, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=51, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=52, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 22447
+"GET /static/css/style.css?v=1752847923 HTTP/1.1" 200 15360
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847924 HTTP/1.1" 200 15360
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71144
+"GET /orders/cart/ HTTP/1.1" 200 22447
+"GET /static/css/style.css?v=1752847928 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22962
+"GET /static/css/style.css?v=1752847930 HTTP/1.1" 200 15360
+Internal Server Error: /orders/cart/update_by_product/14/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 500 71144
+"GET /orders/cart/ HTTP/1.1" 200 22447
+"GET /static/css/style.css?v=1752847933 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=52, POST=<QueryDict: {'csrfmiddlewaretoken': ['9jN0GDF11Sc8Lqy3FiJZXqzRSnzLh5jGXrsuI6zYG0CTX6BN78oTOH9cAiDoi0Zp'], 'quantity': ['2']}>, body=csrfmiddlewaretoken=9jN0GDF11Sc8Lqy3FiJZXqzRSnzLh5jGXrsuI6zYG0CTX6BN78oTOH9cAiDoi0Zp&quantity=2, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=52, product=14, quantity=2, queries=1
+"POST /orders/cart/update/52/ HTTP/1.1" 200 77
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2457
+"GET /orders/cart/ HTTP/1.1" 200 22447
+"GET /static/css/style.css?v=1752847939 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=52, POST=<QueryDict: {'csrfmiddlewaretoken': ['dqhLnz8AR5qP7VSaNs22Ry7Nf21yPUTG1yWfp22xwdQAjBVUfiHWIPH8XX5bQPzp'], 'quantity': ['10']}>, body=csrfmiddlewaretoken=dqhLnz8AR5qP7VSaNs22Ry7Nf21yPUTG1yWfp22xwdQAjBVUfiHWIPH8XX5bQPzp&quantity=10, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=52, product=14, quantity=10, queries=1
+"POST /orders/cart/update/52/ HTTP/1.1" 200 80
+"GET /orders/cart/ HTTP/1.1" 200 22452
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752847947 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22964
+"GET /static/css/style.css?v=1752847950 HTTP/1.1" 200 15360
+Сохранение CartItem: id=53, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 24265
+"GET /static/css/style.css?v=1752847956 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23289
+"GET /static/css/style.css?v=1752847958 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23289
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752848085 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=53, product=13, quantity=2, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 36
+Internal Server Error: /orders/cart/update_by_product/13/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\orders\views.py", line 182, in update_cart_item_by_product
+    data = json.loads(request.body)
+           ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 500 71140
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848534 HTTP/1.1" 200 15360
+Сохранение CartItem: id=47, product=14, quantity=2, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=6, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=7, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26096
+"GET /static/css/style.css?v=1752848544 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848546 HTTP/1.1" 200 15360
+Сохранение CartItem: id=47, product=14, quantity=8, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=47, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=47, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26096
+"GET /static/css/style.css?v=1752848559 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848560 HTTP/1.1" 200 15360
+Сохранение CartItem: id=47, product=14, quantity=5, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26096
+"GET /static/css/style.css?v=1752848565 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848568 HTTP/1.1" 200 15360
+Сохранение CartItem: id=47, product=14, quantity=6, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=54, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=55, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=56, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=6, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=7, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=57, product=14, quantity=8, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=9, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=10, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=11, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=12, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=13, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=14, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=15, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 26098
+"GET /static/css/style.css?v=1752848581 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23605
+"GET /static/css/style.css?v=1752848582 HTTP/1.1" 200 15360
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23605
+"GET /static/css/style.css?v=1752848732 HTTP/1.1" 200 15360
+Сохранение CartItem: id=57, product=14, quantity=16, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=57, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26095
+"GET /static/css/style.css?v=1752848738 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848741 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23282
+"GET /static/css/style.css?v=1752848746 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 200 10453
+"GET /orders/cart/ HTTP/1.1" 200 24265
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752848750 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64131)
+"POST /orders/cart/remove/52/ HTTP/1.1" 200 56
+"POST /orders/cart/remove/53/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 19697
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752848756 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 22634
+"GET /static/css/style.css?v=1752848758 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64130)
+Сохранение CartItem: id=58, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=58, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=58, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=58, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=59, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=59, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=59, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=59, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=59, product=13, quantity=5, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=60, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 36
+"GET / HTTP/1.1" 200 23604
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752848777 HTTP/1.1" 200 15360
+- Broken pipe from ('127.0.0.1', 64141)
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 26098
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752848784 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 23604
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752848786 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64186)
+C:\sushiwoker\orders\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23604
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752848916 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 64325)
+Сохранение CartItem: id=58, product=14, quantity=5, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=58, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=58, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23603
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752848924 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+"GET /static/css/style.css?v=1752848932 HTTP/1.1" 200 15360
+Сохранение CartItem: id=57, product=14, quantity=3, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=57, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=57, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=46, product=13, quantity=2, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=45, product=12, quantity=2, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=61, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=61, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=61, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=61, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 5 for product 12
+Сохранение CartItem: id=61, product=12, quantity=5, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=61, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=61, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=61, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=61, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=62, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=63, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=63, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=63, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=63, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=63, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=63, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=63, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22634
+"GET /static/css/style.css?v=1752848959 HTTP/1.1" 200 15360
+Сохранение CartItem: id=64, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=64, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=64, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=64, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 1 for product 11
+Сохранение CartItem: id=64, product=11, quantity=1, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 19697
+"GET /static/css/style.css?v=1752848980 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22634
+"GET /static/css/style.css?v=1752848981 HTTP/1.1" 200 15360
+Сохранение CartItem: id=65, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=65, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22957
+"GET /static/css/style.css?v=1752848987 HTTP/1.1" 200 15360
+Сохранение CartItem: id=66, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752848990 HTTP/1.1" 200 15360
+Сохранение CartItem: id=66, product=13, quantity=2, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=66, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=66, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752848995 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23603
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752848999 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 26097
+"GET /static/css/style.css?v=1752849002 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"POST /orders/cart/remove/59/ HTTP/1.1" 200 57
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752849010 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752849263 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10752
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=58, product=14, quantity=4, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=58, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=58, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=58, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23280
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752849275 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 24283
+"GET /static/css/style.css?v=1752849277 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"POST /orders/cart/remove/58/ HTTP/1.1" 200 56
+"GET / HTTP/1.1" 200 22957
+"GET /static/css/style.css?v=1752849284 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=60, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22957
+"GET /static/css/style.css?v=1752849289 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 22957
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752849290 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=60, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 22957
+"GET /static/css/style.css?v=1752849295 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=67, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752849298 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23280
+"GET /static/js/main.js HTTP/1.1" 200 10752
+"GET /static/css/style.css?v=1752850442 HTTP/1.1" 200 15360
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /orders/cart/ HTTP/1.1" 200 24278
+"GET /static/css/style.css?v=1752850458 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 65534)
+"POST /orders/cart/remove/60/ HTTP/1.1" 200 56
+"GET / HTTP/1.1" 200 22957
+"GET /static/css/style.css?v=1752850463 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 65533)
+Сохранение CartItem: id=68, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23280
+"GET /static/css/style.css?v=1752850469 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23391
+"GET /static/css/style.css?v=1752850548 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=67, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=67, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=68, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=68, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=68, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=69, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=69, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23768
+"GET /static/css/style.css?v=1752850564 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 26097
+"GET /static/css/style.css?v=1752850567 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23768
+"GET /static/css/style.css?v=1752850569 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 24145
+"GET /static/css/style.css?v=1752850607 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 200 10752
+"GET /orders/cart/ HTTP/1.1" 200 27932
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /static/css/style.css?v=1752850611 HTTP/1.1" 200 15360
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 24145
+"GET /static/css/style.css?v=1752850613 HTTP/1.1" 200 15360
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=39, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=38, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23391
+"GET /static/css/style.css?v=1752850620 HTTP/1.1" 200 15360
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=37, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+Сохранение CartItem: id=70, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=70, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=70, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23014
+"GET /static/css/style.css?v=1752850628 HTTP/1.1" 200 15360
+"GET /orders/cart/ HTTP/1.1" 200 22446
+"GET /static/css/style.css?v=1752850642 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=70, POST=<QueryDict: {}>, body={"quantity":5}, user=admin, session=m466yhcod3u0qaf8u4fcjm0omfleji4w
+Сохранение CartItem: id=70, product=13, quantity=1, queries=1
+"POST /orders/cart/update/70/ HTTP/1.1" 200 77
+Получен запрос на обновление: item_id=70, POST=<QueryDict: {'csrfmiddlewaretoken': ['ZdA4Yc9MQRb9Ad9IIEmIqw5AVDRZMpeOVN5WPgKvAaTFAewRrq3QAqVwL5Azfvsk'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=ZdA4Yc9MQRb9Ad9IIEmIqw5AVDRZMpeOVN5WPgKvAaTFAewRrq3QAqVwL5Azfvsk&quantity=4, user=admin, session=m466yhcod3u0qaf8u4fcjm0omfleji4w
+Сохранение CartItem: id=70, product=13, quantity=4, queries=1
+"POST /orders/cart/update/70/ HTTP/1.1" 200 79
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=68, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 26097
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752850665 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 49368)
+"POST /orders/cart/remove/68/ HTTP/1.1" 200 57
+Получен запрос на обновление: item_id=67, POST=<QueryDict: {}>, body={"quantity":5}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=67, product=13, quantity=1, queries=1
+Получен запрос на обновление: item_id=67, POST=<QueryDict: {'csrfmiddlewaretoken': ['jyWU1nCLh16FKugSzi6bSCIToBYLvSQa7GBo3QwIW9wqWajC18L5JTie6w2owNwT'], 'quantity': ['4']}>, body=csrfmiddlewaretoken=jyWU1nCLh16FKugSzi6bSCIToBYLvSQa7GBo3QwIW9wqWajC18L5JTie6w2owNwT&quantity=4, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=67, product=13, quantity=4, queries=1
+"POST /orders/cart/update/67/ HTTP/1.1" 200 78
+"POST /orders/cart/update/67/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 24279
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752850680 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=67, POST=<QueryDict: {}>, body={"quantity":6}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=67, product=13, quantity=1, queries=1
+"POST /orders/cart/update/67/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=67, POST=<QueryDict: {'csrfmiddlewaretoken': ['trfYQfftUUXma1L0eowUvojPXh28tdLOhzUsSI9qz2n7mHOKGebOmFTaFc6Lu8rx'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=trfYQfftUUXma1L0eowUvojPXh28tdLOhzUsSI9qz2n7mHOKGebOmFTaFc6Lu8rx&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=67, product=13, quantity=5, queries=1
+"POST /orders/cart/update/67/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Получен запрос на обновление: item_id=67, POST=<QueryDict: {'csrfmiddlewaretoken': ['trfYQfftUUXma1L0eowUvojPXh28tdLOhzUsSI9qz2n7mHOKGebOmFTaFc6Lu8rx'], 'quantity': ['5']}>, body=csrfmiddlewaretoken=trfYQfftUUXma1L0eowUvojPXh28tdLOhzUsSI9qz2n7mHOKGebOmFTaFc6Lu8rx&quantity=5, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=67, product=13, quantity=5, queries=1
+"POST /orders/cart/update/67/ HTTP/1.1" 200 79
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 24279
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752850698 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+C:\sushiwoker\orders\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\orders\signals.py changed, reloading.
+Watching for file changes with StatReloader

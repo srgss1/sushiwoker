@@ -35,7 +35,8 @@
                     </td>
                     <td>{{ item.product.price }} ₽</td>
                     <td>
-                        <form action="{% url 'orders:update_cart_item' item.id %}" method="post" class="quantity-form">
+                        <form method="post" class="quantity-form"
+                              action="{% url 'orders:update_cart_item' item.id %}">
                             {% csrf_token %}
                             <div class="quantity-controls">
                                 <button type="button" class="quantity-btn minus" data-item-id="{{ item.id }}">-</button>
@@ -45,9 +46,10 @@
                             </div>
                         </form>
                     </td>
-                    <td>{{ item.total_price }} ₽</td>
+                    <td class="item-total" data-item-id="{{ item.id }}">{{ item.total_price }} ₽</td>
                     <td>
-                        <form action="{% url 'orders:remove_from_cart' item.id %}" method="post">
+                        <form method="post" class="remove-form"
+                              action="{% url 'orders:remove_from_cart' item.id %}">
                             {% csrf_token %}
                             <button type="submit" class="remove-btn">×</button>
                         </form>
@@ -60,15 +62,15 @@
             <div class="cart-summary">
                 <div class="summary-item">
                     <span>Товары:</span>
-                    <span>{{ cart.total_price }} ₽</span>
+                    <span class="cart-subtotal">{{ cart.total_price }} ₽</span>
                 </div>
                 <div class="summary-item">
                     <span>Доставка:</span>
-                    <span>150 ₽</span>
+                    <span class="delivery-cost">150 ₽</span>
                 </div>
                 <div class="summary-item total">
                     <strong>Итого к оплате:</strong>
-                    <strong>{{ cart.total_price|add:150 }} ₽</strong>
+                    <strong class="cart-total">{{ cart.total_price|add:150 }} ₽</strong>
                 </div>
 
                 <a href="{% url 'orders:checkout' %}" class="btn">Оформить заказ</a>
@@ -102,11 +104,11 @@
     th, td {
         padding: 12px 15px;
         text-align: left;
-        border-bottom: 1px solid var(--medium-gray);
+        border-bottom: 1px solid var(--gray-light);
     }
     
     th {
-        background-color: var(--light-gray);
+        background-color: var(--primary-light);
         font-weight: bold;
     }
     
@@ -129,7 +131,7 @@
     .quantity-btn {
         width: 30px;
         height: 30px;
-        background: var(--light-gray);
+        background: var(--primary-light);
         border: none;
         border-radius: 4px;
         font-size: 16px;
@@ -140,7 +142,7 @@
     }
     
     .quantity-btn:hover {
-        background: var(--medium-gray);
+        background: var(--gray-light);
     }
     
     .quantity-input {
@@ -148,7 +150,7 @@
         height: 30px;
         text-align: center;
         margin: 0 5px;
-        border: 1px solid var(--medium-gray);
+        border: 1px solid var(--gray-light);
         border-radius: 4px;
     }
     
@@ -156,7 +158,7 @@
         background: none;
         border: none;
         font-size: 24px;
-        color: var(--primary-red);
+        color: #dc3545;
         cursor: pointer;
         width: 30px;
         height: 30px;
@@ -167,11 +169,11 @@
     }
     
     .remove-btn:hover {
-        background: rgba(255, 65, 54, 0.1);
+        background: rgba(220, 53, 69, 0.1);
     }
     
     .cart-summary {
-        background: var(--light-gray);
+        background: var(--primary-light);
         padding: 20px;
         border-radius: 8px;
         max-width: 400px;
@@ -188,7 +190,7 @@
         font-size: 18px;
         margin-top: 15px;
         padding-top: 15px;
-        border-top: 1px solid var(--medium-gray);
+        border-top: 1px solid var(--gray-light);
     }
     
     .empty-cart {
@@ -231,11 +233,35 @@
 {% block extra_js %}
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Обновление количества товаров
+        // Функция для получения CSRF токена
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        // Обработчики для кнопок +/-
         document.querySelectorAll('.quantity-btn').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function(e) {
+                console.log(`[Frontend] Кнопка нажата: ${this.className}`);
+                e.preventDefault();
                 const itemId = this.dataset.itemId;
                 const input = document.querySelector(`.quantity-input[data-item-id="${itemId}"]`);
+
+                if (!input) {
+                    console.error(`Input not found for item: ${itemId}`);
+                    return;
+                }
+
                 let quantity = parseInt(input.value);
 
                 if (this.classList.contains('plus')) {
@@ -246,18 +272,147 @@
 
                 input.value = quantity;
 
-                // Отправляем форму
-                const form = input.closest('form');
-                form.submit();
+                // Обновляем значение
+                updateCartItem(itemId, quantity);
             });
         });
 
-        // Обновление при изменении ввода
-        document.querySelectorAll('.quantity-input').forEach(input => {
-            input.addEventListener('change', function() {
-                if (this.value < 1) this.value = 1;
-                const form = this.closest('form');
-                form.submit();
+        // Функция для обновления количества товара
+        function updateCartItem(itemId, quantity) {
+            console.log(`[Frontend] Запрос на обновление: itemId=${itemId}, quantity=${quantity}`);
+
+            const input = document.querySelector(`.quantity-input[data-item-id="${itemId}"]`);
+            if (!input) {
+                console.error(`Input not found for update: ${itemId}`);
+                return;
+            }
+
+            const originalValue = input.value;
+            console.log(`[Frontend] Текущее значение: ${originalValue}, новое: ${quantity}`);
+
+            // Блокируем инпут во время запроса
+            input.disabled = true;
+
+            fetch(`/orders/cart/update/${itemId}/`, {
+                method: 'POST',
+                body: JSON.stringify({ quantity: quantity }),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken')
+                }
+            })
+            .then(response => {
+                if (response.status === 404) {
+                    // Товар не найден - перезагружаем корзину
+                    alert('Товар не найден в корзине. Корзина будет обновлена.');
+                    location.reload();
+                    return null;
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (!data) return; // Уже обработали 404
+
+                if (data.success) {
+                    // Обновляем суммы в таблице
+                    const itemTotal = document.querySelector(`.item-total[data-item-id="${itemId}"]`);
+                    if (itemTotal) {
+                        itemTotal.textContent = data.item_total.toFixed(2) + ' ₽';
+                    }
+
+                    // Обновляем итоговые суммы
+                    document.querySelector('.cart-subtotal').textContent = data.cart_total.toFixed(2) + ' ₽';
+                    document.querySelector('.cart-total').textContent = (parseFloat(data.cart_total) + 150).toFixed(2) + ' ₽';
+
+                    // Обновляем счетчик в шапке
+                    document.querySelectorAll('.cart-count').forEach(counter => {
+                        counter.textContent = data.total_items;
+                        counter.classList.add('pulse');
+                        setTimeout(() => counter.classList.remove('pulse'), 500);
+                    });
+                } else {
+                    alert('Ошибка: ' + (data.error || 'Неизвестная ошибка'));
+                    // Восстанавливаем предыдущее значение
+                    input.value = originalValue;
+                }
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                alert('Произошла ошибка при обновлении количества');
+                input.value = originalValue;
+            })
+            .finally(() => {
+                if (input) input.disabled = false;
+            });
+        }
+
+        // Обработчики для удаления товаров
+        document.querySelectorAll('.remove-form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const itemId = this.action.split('/').filter(Boolean).pop();
+
+                if (!confirm('Удалить товар из корзины?')) {
+                    return;
+                }
+
+                const form = this;
+                const submitButton = form.querySelector('button[type="submit"]');
+
+                // Блокируем кнопку во время запроса
+                submitButton.disabled = true;
+                submitButton.textContent = 'Удаление...';
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: JSON.stringify({}),
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken')
+                    }
+                })
+                .then(response => {
+                    if (response.status === 404) {
+                        alert('Товар уже удален. Корзина будет обновлена.');
+                        location.reload();
+                        return null;
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!data) return; // Уже обработали 404
+
+                    if (data.success) {
+                        // Удаляем строку из таблицы
+                        form.closest('tr').remove();
+
+                        // Обновляем итоговые суммы
+                        document.querySelector('.cart-subtotal').textContent = data.cart_total.toFixed(2) + ' ₽';
+                        document.querySelector('.cart-total').textContent = (parseFloat(data.cart_total) + 150).toFixed(2) + ' ₽';
+
+                        // Обновляем счетчик в шапке
+                        document.querySelectorAll('.cart-count').forEach(counter => {
+                            counter.textContent = data.total_items;
+                            counter.classList.add('pulse');
+                            setTimeout(() => counter.classList.remove('pulse'), 500);
+                        });
+
+                        // Если корзина пуста, перезагружаем страницу
+                        if (data.total_items === 0) {
+                            setTimeout(() => location.reload(), 1000);
+                        }
+                    } else {
+                        alert('Ошибка при удалении товара: ' + (data.error || ''));
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    alert('Произошла ошибка при удалении товара');
+                })
+                .finally(() => {
+                    submitButton.disabled = false;
+                    submitButton.textContent = '×';
+                });
             });
         });
     });

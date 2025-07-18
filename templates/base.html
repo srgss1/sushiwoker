@@ -4,21 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token }}">
     <title>SushiWoker - {% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}?v={% now 'U' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+          rel="stylesheet">
     <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <style>
+        :root {
+            --hero-bg: url('{% static "images/hero-bg.jpg" %}');
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
 </head>
 <body>
 <header>
     <div class="container">
         <div class="header-inner">
-            <div class="logo">
+            <a href="{% url 'index' %}" class="logo">
                 <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
-                <h1>SushiWoker</h1>
-            </div>
+                <span>SushiWoker</span>
+            </a>
 
             <div class="mobile-menu-btn" id="mobileMenuBtn">
                 <span></span>
@@ -30,20 +38,35 @@
                 <a href="#menu">Меню</a>
                 <a href="#promotions">Акции</a>
                 <a href="#delivery">Доставка</a>
-                <a href="#contacts">Контакты</a>
+                <a href="#reviews">Отзывы</a>
                 <div class="phone">
-                    <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                    <a href="tel:+74951234567">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92V19.92C22 20.47 21.55 20.93 21 20.98C20.5 21.03 19.98 21 19.5 20.88C16.9 20.33 14.47 19.13 12.4 17.43C10.57 15.93 9.09 14.11 8.04 12.06C7.28 10.54 6.83 8.87 6.71 7.15C6.67 6.61 7.09 6.14 7.63 6.04C8.76 5.82 9.03 4.42 8.09 3.86C7.58 3.55 7 3.33 6.41 3.2C5.85 3.07 5.27 3 4.69 3H2C1.45 3 1 3.45 1 4C1 13.39 9.61 22 19 22C19.55 22 20 21.55 20 21V18.31C20 17.76 19.55 17.31 19 17.31C17.77 17.31 16.57 17.1 15.43 16.71C15.33 16.68 15.22 16.66 15.12 16.66C14.8 16.66 14.49 16.79 14.26 17.03L12.69 18.6C10.2 17.31 8.19 15.29 6.89 12.78L8.46 11.21C8.73 10.94 8.85 10.57 8.81 10.2C8.54 8.58 8.7 6.92 9.27 5.38C9.34 5.18 9.4 4.98 9.47 4.79C9.72 4.18 10.11 3.65 10.6 3.24C11.38 2.55 12.48 2.72 13.08 3.6L14.28 5.38C14.6 5.91 14.74 6.53 14.68 7.15C14.56 8.28 14.18 9.37 13.58 10.35C13.31 10.81 13.7 11.4 14.24 11.4C15.5 11.4 16.74 11.18 17.9 10.75C18.48 10.53 19.03 10.23 19.54 9.86C20.4 9.25 21.56 9.45 22.18 10.29L23.27 11.79C23.7 12.42 23.77 13.22 23.46 13.91C23.02 14.92 22.34 15.81 21.48 16.49C21.09 16.79 20.63 17 20.14 17.11C19.56 17.24 18.97 17.31 18.38 17.31H17.91C17.36 17.31 16.91 17.76 16.91 18.31V18.32C16.91 18.45 16.93 18.58 16.97 18.7C17.24 19.52 17.81 20.21 18.57 20.65C19.33 21.09 20.22 21.25 21.1 21.09C21.55 21 22 20.55 22 20.08V16.92Z"
+                                  fill="currentColor"/>
+                        </svg>
+                        +7 (495) 123-45-67
+                    </a>
                 </div>
             </nav>
 
             <div class="header-right">
                 <div class="phone">
-                    <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                    <a href="tel:+74951234567">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92V19.92C22 20.47 21.55 20.93 21 20.98C20.5 21.03 19.98 21 19.5 20.88C16.9 20.33 14.47 19.13 12.4 17.43C10.57 15.93 9.09 14.11 8.04 12.06C7.28 10.54 6.83 8.87 6.71 7.15C6.67 6.61 7.09 6.14 7.63 6.04C8.76 5.82 9.03 4.42 8.09 3.86C7.58 3.55 7 3.33 6.41 3.2C5.85 3.07 5.27 3 4.69 3H2C1.45 3 1 3.45 1 4C1 13.39 9.61 22 19 22C19.55 22 20 21.55 20 21V18.31C20 17.76 19.55 17.31 19 17.31C17.77 17.31 16.57 17.1 15.43 16.71C15.33 16.68 15.22 16.66 15.12 16.66C14.8 16.66 14.49 16.79 14.26 17.03L12.69 18.6C10.2 17.31 8.19 15.29 6.89 12.78L8.46 11.21C8.73 10.94 8.85 10.57 8.81 10.2C8.54 8.58 8.7 6.92 9.27 5.38C9.34 5.18 9.4 4.98 9.47 4.79C9.72 4.18 10.11 3.65 10.6 3.24C11.38 2.55 12.48 2.72 13.08 3.6L14.28 5.38C14.6 5.91 14.74 6.53 14.68 7.15C14.56 8.28 14.18 9.37 13.58 10.35C13.31 10.81 13.7 11.4 14.24 11.4C15.5 11.4 16.74 11.18 17.9 10.75C18.48 10.53 19.03 10.23 19.54 9.86C20.4 9.25 21.56 9.45 22.18 10.29L23.27 11.79C23.7 12.42 23.77 13.22 23.46 13.91C23.02 14.92 22.34 15.81 21.48 16.49C21.09 16.79 20.63 17 20.14 17.11C19.56 17.24 18.97 17.31 18.38 17.31H17.91C17.36 17.31 16.91 17.76 16.91 18.31V18.32C16.91 18.45 16.93 18.58 16.97 18.7C17.24 19.52 17.81 20.21 18.57 20.65C19.33 21.09 20.22 21.25 21.1 21.09C21.55 21 22 20.55 22 20.08V16.92Z"
+                                  fill="currentColor"/>
+                        </svg>
+                        +7 (495) 123-45-67
+                    </a>
                 </div>
                 <div class="cart">
                     <a href="{% url 'orders:cart_view' %}">
-                        <span class="cart-icon">🛒</span>
-                        <span class="cart-count">0</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.48C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2H1ZM7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                  fill="currentColor"/>
+                        </svg>
+                        <span class="cart-count">{{ cart.total_items|default:0 }}</span>
                     </a>
                 </div>
             </div>
@@ -58,19 +81,51 @@
 <footer>
     <div class="container">
         <div class="footer-content">
-            <div class="footer-logo">
-                <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
-                <h2>SushiWoker</h2>
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
+                    <h2>SushiWoker</h2>
+                </div>
+                <p>Свежие суши и роллы с доставкой по Мытищам и области</p>
             </div>
-            <div class="footer-info">
-                <p>© 2025 SushiWoker. Мытищи</p>
-                <p>Время работы: 10:00 - 23:00</p>
-                <p>Адрес: г. Мытищи, ул. Сушишная, д. 15</p>
+
+            <div class="footer-col">
+                <h3>Меню</h3>
+                <div class="footer-links">
+                    <a href="#menu">Роллы</a>
+                    <a href="#menu">Суши</a>
+                    <a href="#menu">Сеты</a>
+                    <a href="#menu">WOK</a>
+                </div>
             </div>
+
+            <div class="footer-col">
+                <h3>Информация</h3>
+                <div class="footer-links">
+                    <a href="#promotions">Акции</a>
+                    <a href="#delivery">Доставка</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#">О нас</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Контакты</h3>
+                <div class="footer-info">
+                    <p>+7 (495) 123-45-67</p>
+                    <p>г. Мытищи, ул. Сушишная, д. 15</p>
+                    <p>Время работы: 10:00 - 23:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 SushiWoker. Все права защищены</p>
         </div>
     </div>
 </footer>
 
 <script src="{% static 'js/main.js' %}"></script>
+{% block extra_js %}{% endblock %}
 </body>
 </html>

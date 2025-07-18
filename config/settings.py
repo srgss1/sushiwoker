@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'core.context_processors.cart',
             ],
         },
     },
@@ -129,7 +130,49 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SITE_HEADER = "Панель управления SushiWoker"
 SITE_TITLE = "SushiWoker Admin"
 
+# Отключение кэширования в режиме разработки
 if DEBUG:
-    import mimetypes
+    # Правильное отключение кэширования шаблонов
+    TEMPLATES[0]['OPTIONS']['loaders'] = [
+        'django.template.loaders.filesystem.Loader',
+        'django.template.loaders.app_directories.Loader'
+    ]
 
+    # Отключаем APP_DIRS, так как мы явно указали загрузчики
+    TEMPLATES[0]['APP_DIRS'] = False
+
+    # Отключаем кэширование статики
+    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
+    # Для правильного определения MIME-типов JavaScript
+    import mimetypes
     mimetypes.add_type("application/javascript", ".js", True)
+
+# Настройки логирования
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': 'debug.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'orders': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+        },
+        'core': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+        },
+    },
+}
