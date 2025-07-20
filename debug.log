@@ -4620,3 +4620,2520 @@ Not Found: /.well-known/appspecific/com.chrome.devtools.json
 - Broken pipe from ('127.0.0.1', 64418)
 C:\sushiwoker\orders\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /orders/cart/ HTTP/1.1" 200 16752
+"GET /static/css/style.css?v=1752871624 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+- Broken pipe from ('127.0.0.1', 65284)
+"GET / HTTP/1.1" 200 23459
+"GET /static/css/style.css?v=1752871625 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 16752
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752871627 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23459
+"GET /static/css/style.css?v=1752871628 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23459
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752885279 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=85, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=85, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 4 for product 12
+Сохранение CartItem: id=85, product=12, quantity=4, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Сохранение CartItem: id=86, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18254
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752885290 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=85, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=85, product=12, quantity=3, queries=1
+"POST /orders/cart/update/85/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=85, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=85, product=12, quantity=2, queries=1
+"POST /orders/cart/update/85/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=85, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=85, product=12, quantity=1, queries=1
+"POST /orders/cart/update/85/ HTTP/1.1" 200 78
+"GET /orders/checkout/ HTTP/1.1" 200 11308
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752885304 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752885314 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752942839 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=85, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752951357 HTTP/1.1" 200 15360
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=85, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 23872
+"GET /static/css/style.css?v=1752951361 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18251
+"GET /static/css/style.css?v=1752951369 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"POST /orders/cart/remove/85/ HTTP/1.1" 200 57
+Получен запрос на обновление: item_id=86, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=86, product=11, quantity=2, queries=1
+"POST /orders/cart/update/86/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=86, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=86, product=11, quantity=3, queries=1
+"POST /orders/cart/update/86/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=86, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=86, product=11, quantity=4, queries=1
+"POST /orders/cart/update/86/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=82, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=82, product=13, quantity=3, queries=1
+"POST /orders/cart/update/82/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=79, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=79, product=14, quantity=2, queries=1
+"POST /orders/cart/update/79/ HTTP/1.1" 200 78
+"GET /orders/cart/ HTTP/1.1" 200 16757
+"GET /static/css/style.css?v=1752951386 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23459
+"GET /static/css/style.css?v=1752951388 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=87, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 36
+"POST /orders/cart/remove_by_product/12/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=82, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=82, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=79, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=86, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=86, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 1 for product 11
+Сохранение CartItem: id=86, product=11, quantity=1, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 11364
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752951400 HTTP/1.1" 200 15360
+"GET / HTTP/1.1" 200 22220
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1752951402 HTTP/1.1" 200 15360
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/core/category/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_category.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\contrib\admin\options.py", line 2105, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\forms\formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\forms\formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\forms\formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\forms\models.py", line 695, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_category.image
+"GET /admin/core/category/ HTTP/1.1" 500 190392
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22220
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1752962857 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+Сохранение CartItem: id=88, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=89, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=90, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=88, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=89, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=91, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+Сохранение CartItem: id=92, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=92, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=90, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=90, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=89, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=92, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=92, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18253
+"GET /static/css/style.css?v=1752962882 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET / HTTP/1.1" 200 23873
+"GET /static/css/style.css?v=1752962891 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /orders/cart/ HTTP/1.1" 200 18253
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/css/style.css?v=1752962916 HTTP/1.1" 200 15360
+- Broken pipe from ('127.0.0.1', 53648)
+"GET / HTTP/1.1" 200 23873
+"GET /static/css/style.css?v=1752962918 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15902
+"GET /static/js/main.js HTTP/1.1" 200 17254
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/css/style.css?v=1753015893 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /orders/cart/ HTTP/1.1" 200 18253
+"GET /static/css/style.css?v=1753015935 HTTP/1.1" 200 15360
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 15902
+"GET /static/css/style.css?v=1753015937 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2568
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15902
+"GET /static/css/style.css?v=1753016658 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 53986)
+"GET /orders/cart/ HTTP/1.1" 200 18253
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753016667 HTTP/1.1" 200 15360
+Получен запрос на обновление: item_id=89, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=1ql6yrrxr06sqe10kvguzsp6n777arwo
+Сохранение CartItem: id=89, product=12, quantity=2, queries=1
+"POST /orders/cart/update/89/ HTTP/1.1" 200 78
+"GET / HTTP/1.1" 200 15901
+"GET /static/css/style.css?v=1753016672 HTTP/1.1" 200 15360
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'Product' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_category.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 22, in index
+    return render(request, 'core/index.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 254, in __get__
+    rel_obj = self.get_object(instance)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 217, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_category.image
+"GET / HTTP/1.1" 500 258203
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753020735 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 29, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 60055)
+"GET /static/css/style.css?v=1753020735 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 29, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753020896 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59196)
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753020902 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59197)
+Watching for file changes with StatReloader
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021223 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59510)
+"GET /orders/cart/ HTTP/1.1" 200 18188
+"GET /static/css/style.css?v=1753021225 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021226 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021228 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021233 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021241 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021243 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753021244 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021248 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021249 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59659)
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59662)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021249 HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753021339 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021340 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 18188
+"GET /static/css/style.css?v=1753021343 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021345 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021361 HTTP/1.1" 200 16958
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 17254
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /static/favicon.ico HTTP/1.1" 404 1792
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 166979
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2722
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021376 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021377 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021379 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021380 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021382 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021383 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021385 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021386 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021390 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021393 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021398 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021403 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021404 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021406 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021420 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021428 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021429 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021431 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021432 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 11300
+"GET /static/css/style.css?v=1753021434 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19096
+"GET /static/css/style.css?v=1753021436 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59666)
+"GET /static/css/style.css?v=1753021563 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021565 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 63510)
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021567 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021568 HTTP/1.1" 200 16958
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021573 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021575 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753021576 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021579 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021583 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753021585 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753021627 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753021629 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753022260 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 57909)
+"GET /orders/cart/ HTTP/1.1" 200 18188
+"GET /static/css/style.css?v=1753022262 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753022263 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022263 HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753022650 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753022651 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /orders/cart/ HTTP/1.1" 200 18188
+"GET /static/css/style.css?v=1753022652 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 58247)
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022654 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022655 HTTP/1.1" 200 16958
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 28, in menu_view
+    return render(request, 'core/menu.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['menu/(?P<slug>[-a-zA-Z0-9_]+)/\\Z']
+"GET /menu/ HTTP/1.1" 500 167003
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55472)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753022865 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55476)
+"GET / HTTP/1.1" 200 20748
+"GET /static/css/style.css?v=1753022866 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753022867 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+Internal Server Error: /menu/-1/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-1/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55475)
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022882 HTTP/1.1" 200 16958
+"GET /orders/cart/ HTTP/1.1" 200 18188
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022886 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753022887 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022892 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753022894 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/wok/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/wok/ HTTP/1.1" 500 66174
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55490)
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/-1/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-1/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55498)
+Internal Server Error: /menu/wok/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/wok/ HTTP/1.1" 500 66174
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/-1/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-1/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/wok/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/wok/ HTTP/1.1" 500 66174
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/-2/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-2/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55528)
+Internal Server Error: /menu/-3/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-3/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55532)
+Internal Server Error: /menu/-4/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/-4/ HTTP/1.1" 500 66162
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Internal Server Error: /menu/wok/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/wok/ HTTP/1.1" 500 66174
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+Internal Server Error: /menu/wok/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 34, in category_view
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+"GET /menu/wok/ HTTP/1.1" 500 66174
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/wok/ HTTP/1.1" 200 9602
+"GET /static/css/style.css?v=1753023147 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55754)
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023151 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/-1/ HTTP/1.1" 200 9617
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55755)
+"GET /static/css/style.css?v=1753023152 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023153 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/-2/ HTTP/1.1" 200 9617
+"GET /static/css/style.css?v=1753023154 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55765)
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023155 HTTP/1.1" 200 16958
+"GET /menu/-3/ HTTP/1.1" 200 9629
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023159 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023160 HTTP/1.1" 200 16958
+"GET /menu/-4/ HTTP/1.1" 200 9635
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023161 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023163 HTTP/1.1" 200 16958
+- Broken pipe from ('127.0.0.1', 55770)
+"GET / HTTP/1.1" 200 20748
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023171 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+"GET /static/css/style.css?v=1753023178 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/-1/ HTTP/1.1" 200 9617
+"GET /static/css/style.css?v=1753023180 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023183 HTTP/1.1" 200 16958
+"GET /menu/wok/ HTTP/1.1" 200 9602
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023184 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55805)
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023185 HTTP/1.1" 200 16958
+"GET /menu/-2/ HTTP/1.1" 200 9617
+"GET /static/css/style.css?v=1753023186 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023187 HTTP/1.1" 200 16958
+"GET /menu/-3/ HTTP/1.1" 200 9629
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023188 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11183
+"GET /static/css/style.css?v=1753023189 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55778)
+"GET /admin/ HTTP/1.1" 200 10433
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/core/product/ HTTP/1.1" 200 17216
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /media/products/placeholder.png HTTP/1.1" 200 78927
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/core/product/ HTTP/1.1" 200 17216
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/core/category/15/change/ HTTP/1.1" 200 22604
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+"GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /admin/core/category/16/change/ HTTP/1.1" 200 16743
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /admin/core/category/15/change/ HTTP/1.1" 200 22604
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/core/category/15/change/ HTTP/1.1" 302 0
+"GET /admin/core/category/ HTTP/1.1" 200 15463
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /menu/ HTTP/1.1" 200 11522
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023643 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16657
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023644 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16657
+"GET /static/css/style.css?v=1753023650 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=90, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Сохранение CartItem: id=88, product=13, quantity=3, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=88, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18190
+"GET /static/css/style.css?v=1753023698 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11523
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753023701 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023704 HTTP/1.1" 200 16958
+Сохранение CartItem: id=90, product=14, quantity=4, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=90, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=90, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=90, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18190
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023717 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753023721 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753023722 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 57463)
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753023727 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20769
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023728 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023729 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753023731 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=90, product=14, quantity=6, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=90, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET / HTTP/1.1" 200 20769
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753023742 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753023756 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753023759 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /media/products/placeholder.png HTTP/1.1" 200 78927
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753025714 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 60214)
+"GET /menu/ HTTP/1.1" 200 11522
+"GET /static/css/style.css?v=1753025911 HTTP/1.1" 200 16958
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 16657
+"GET /static/css/style.css?v=1753025914 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19116
+"GET /static/css/style.css?v=1753025922 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19116
+"GET /static/css/style.css?v=1753025947 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753029038 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50426)
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=90, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=88, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 1 for product 12
+Сохранение CartItem: id=89, product=12, quantity=1, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=92, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=92, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /menu/ HTTP/1.1" 200 11522
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753029056 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16657
+"GET /static/css/style.css?v=1753029058 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20768
+"GET /static/css/style.css?v=1753029068 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50427)
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 20768
+"GET /static/css/style.css?v=1753029331 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19116
+"GET /static/css/style.css?v=1753029345 HTTP/1.1" 200 16958
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 17254
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 19116
+"GET /static/css/style.css?v=1753029352 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19116
+"GET /static/css/style.css?v=1753029353 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11522
+"GET /static/css/style.css?v=1753029354 HTTP/1.1" 200 16958
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 16657
+"GET /static/css/style.css?v=1753029359 HTTP/1.1" 200 16958
+Сохранение CartItem: id=93, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=93, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=94, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=94, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Сохранение CartItem: id=95, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=95, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=95, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Сохранение CartItem: id=96, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=96, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=96, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18189
+"GET /static/css/style.css?v=1753029373 HTTP/1.1" 200 16958
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753029376 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753029378 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753029380 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753029397 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753029400 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753029403 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753029406 HTTP/1.1" 200 16958
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753048110 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753048112 HTTP/1.1" 200 16958
+Сохранение CartItem: id=93, product=14, quantity=3, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=93, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18189
+"GET /static/css/style.css?v=1753048118 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753048121 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11523
+"GET /static/css/style.css?v=1753048128 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753048129 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=93, product=14, quantity=3, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=93, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18189
+"GET /static/css/style.css?v=1753048153 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 64750)
+"GET / HTTP/1.1" 200 20769
+"GET /static/css/style.css?v=1753048156 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 63737)
+"GET /menu/ HTTP/1.1" 200 11523
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753048165 HTTP/1.1" 200 16958
+- Broken pipe from ('127.0.0.1', 64749)
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753048166 HTTP/1.1" 200 16958
+- Broken pipe from ('127.0.0.1', 64940)
+Watching for file changes with StatReloader
+Internal Server Error: /menu/rolly/
+Traceback (most recent call last):
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\core\views.py", line 51, in category_view
+    return render(request, 'core/category.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 693, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sushiwoker\venv\Lib\site-packages\django\template\base.py", line 603, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'get_item'
+"GET /menu/rolly/ HTTP/1.1" 500 239704
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55098)
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753048740 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 52256)
+"GET /menu/rolly/ HTTP/1.1" 200 16658
+"GET /static/css/style.css?v=1753048744 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 52257)
+C:\sushiwoker\core\migrations\0003_category_description_category_image.py changed, reloading.
+Watching for file changes with StatReloader

@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ category.name }} | SushiWoker{% endblock %}
+
+{% block content %}
+<section class="category-header">
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="{% url 'index' %}">Главная</a> &gt;
+            <a href="{% url 'menu' %}">Меню</a> &gt;
+            <span>{{ category.name }}</span>
+        </div>
+        <h1 class="section-title">{{ category.name }}</h1>
+        {% if category.description %}
+        <p class="category-description">{{ category.description }}</p>
+        {% endif %}
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <div class="sorting">
+            <select id="sort-select">
+                <option value="default">По умолчанию</option>
+                <option value="price-asc">Цена по возрастанию</option>
+                <option value="price-desc">Цена по убыванию</option>
+                <option value="popular">По популярности</option>
+            </select>
+        </div>
+        <div class="product-grid">
+            {% for product in products %}
+            <div class="product-card"
+                 data-category="{{ product.category.slug }}"
+                 data-price="{{ product.price }}"
+                 data-popular="{{ product.is_popular|yesno:'true,false' }}">
+                <div class="image-container" style="padding-bottom: {{ product.image_aspect_ratio|default:75 }}%">
+                    <img
+                            {% if product.image %}
+                            src="{{ product.image_small.url }}"
+                            srcset="{{ product.image_small.url }} 480w, {{ product.image_medium.url }} 768w, {{ product.image.url }} 1200w"
+                            sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+                            {% else %}
+                            src="{% static 'images/placeholder.png' %}"
+                            {% endif %}
+                            alt="{{ product.name }}"
+                            loading="lazy"
+                    >
+                </div>
+                <div class="product-content">
+                    <div class="product-badges">
+                        {% if product.is_popular %}<span class="badge popular">Хит</span>{% endif %}
+                        {% if product.is_new %}<span class="badge new">Новинка</span>{% endif %}
+                    </div>
+                    <h3>{{ product.name }}</h3>
+                    <p class="description">{{ product.description|truncatechars:60 }}</p>
+                    <div class="price-weight">
+                        <span class="price">{{ product.price }} ₽</span>
+                        {% if product.weight %}<span class="weight">{{ product.weight }} г</span>{% endif %}
+                    </div>
+
+                    <div class="quantity-controls" data-product="{{ product.id }}" style="display: none;">
+                        <button class="quantity-btn minus">-</button>
+                        <span class="quantity-display">1</span>
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+
+                    <button class="add-to-cart" data-product="{{ product.id }}">В корзину</button>
+                </div>
+            </div>
+            {% empty %}
+            <div class="no-products">
+                <p>Товары не найдены</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .category-header {
+        padding: 40px 0 20px;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+    
+    .breadcrumbs {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: var(--gray-medium);
+    }
+    
+    .breadcrumbs a {
+        color: var(--primary-accent);
+        text-decoration: none;
+    }
+    
+    .category-description {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+        color: var(--text-dark);
+        line-height: 1.6;
+    }
+</style>
+{% endblock %}

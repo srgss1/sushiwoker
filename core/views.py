@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
-from orders.models import Cart  # Добавляем импорт модели Cart
+from orders.models import Cart
 from .models import Category, Product
 
 
@@ -15,15 +15,32 @@ def get_cart(request):
     return cart
 
 def index(request):
-    categories = Category.objects.filter(is_active=True).order_by('order')
-    products = Product.objects.filter(is_active=True)  # Все активные продукты
+    popular_products = Product.objects.filter(
+        is_active=True,
+        is_popular=True
+    ).select_related('category')[:8]  # Добавляем select_related для оптимизации
 
-    # Фильтрация по категории (если передана в GET-параметре)
-    category_slug = request.GET.get('category')
-    if category_slug:
-        products = products.filter(category__slug=category_slug)
+    return render(request, 'core/index.html', {
+        'popular_products': popular_products,
+        'cart': get_cart(request)
+    })
 
-    # Сортировка
+
+def menu_view(request):
+    categories = Category.objects.filter(is_active=True).exclude(slug='').order_by('order')
+    return render(request, 'core/menu.html', {
+        'categories': categories,
+        'cart': get_cart(request)
+    })
+
+
+def category_view(request, slug):
+    category = get_object_or_404(Category, slug=slug, is_active=True)
+    products = Product.objects.filter(
+        category=category,
+        is_active=True
+    ).select_related('category')  # Добавляем select_related
+    
     sort = request.GET.get('sort')
     if sort == 'price-asc':
         products = products.order_by('price')
@@ -31,9 +48,9 @@ def index(request):
         products = products.order_by('-price')
     elif sort == 'popular':
         products = products.filter(is_popular=True)
-    
-    return render(request, 'core/index.html', {
-        'categories': categories,
+
+    return render(request, 'core/category.html', {
+        'category': category,
         'products': products,
         'cart': get_cart(request)
     })

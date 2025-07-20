@@ -4,41 +4,19 @@
 {% block title %}Главная страница | SushiWoker{% endblock %}
 
 {% block content %}
-<!-- Герой-секция -->
 <section class="hero">
     <div class="container">
         <h2>Настоящие японские суши с доставкой</h2>
         <p>Бесплатная доставка при заказе от 1000 рублей</p>
-        <a href="#menu" class="btn">Смотреть меню</a>
+        <a href="{% url 'menu' %}" class="btn">Смотреть меню</a>
     </div>
 </section>
 
-<!-- Секция категорий -->
-<section class="categories" id="menu">
+<section class="popular-products">
     <div class="container">
-        <h2 class="section-title">Наше меню</h2>
-        <div class="category-filters">
-            <button class="filter-btn active" data-category="all">Все</button>
-            {% for category in categories %}
-            <button class="filter-btn" data-category="{{ category.slug }}">{{ category.name }}</button>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<!-- Секция продуктов -->
-<section class="products">
-    <div class="container">
-        <div class="sorting">
-            <select id="sort-select">
-                <option value="default">По умолчанию</option>
-                <option value="price-asc">Цена по возрастанию</option>
-                <option value="price-desc">Цена по убыванию</option>
-                <option value="popular">По популярности</option>
-            </select>
-        </div>
+        <h2 class="section-title">Популярные блюда</h2>
         <div class="product-grid">
-            {% for product in products %}
+            {% for product in popular_products %}
             <div class="product-card" 
                  data-category="{{ product.category.slug }}"
                  data-price="{{ product.price }}"
@@ -46,7 +24,7 @@
                 <div class="image-container" style="padding-bottom: {{ product.image_aspect_ratio|default:75 }}%">
                     <img
                             {% if product.image %}
-                            src="{{ product.image_small.url }}" 
+                            src="{{ product.image_small.url }}"
                             srcset="{{ product.image_small.url }} 480w, {{ product.image_medium.url }} 768w, {{ product.image.url }} 1200w"
                             sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                             {% else %}
@@ -68,7 +46,6 @@
                         {% if product.weight %}<span class="weight">{{ product.weight }} г</span>{% endif %}
                     </div>
 
-                    <!-- Контролы количества (изначально скрыты) -->
                     <div class="quantity-controls" data-product="{{ product.id }}" style="display: none;">
                         <button class="quantity-btn minus">-</button>
                         <span class="quantity-display">1</span>
@@ -80,15 +57,17 @@
             </div>
             {% empty %}
             <div class="no-products">
-                <p>Товары не найдены</p>
-                <button class="btn reset-filters">Сбросить фильтры</button>
+                <p>Популярные товары не найдены</p>
             </div>
             {% endfor %}
+        </div>
+        <div class="text-center" style="margin-top: 30px;">
+            <a href="{% url 'menu' %}" class="btn">Всё меню</a>
         </div>
     </div>
 </section>
 
-<!-- Секция акций -->
+<!-- Акции -->
 <section class="promotions" id="promotions">
     <div class="container">
         <h2 class="section-title">Акции</h2>
@@ -112,7 +91,7 @@
     </div>
 </section>
 
-<!-- Секция доставки -->
+<!-- Доставка -->
 <section class="delivery" id="delivery">
     <div class="container">
         <h2 class="section-title">Доставка</h2>
@@ -134,7 +113,7 @@
     </div>
 </section>
 
-<!-- Секция отзывов -->
+<!-- Отзывы -->
 <section class="reviews" id="reviews">
     <div class="container">
         <h2 class="section-title">Отзывы</h2>
@@ -151,30 +130,7 @@
                 <p>Очень вкусные роллы! Заказываем регулярно, всегда свежие и быстро привозят. Особенно нравится
                     Филадельфия и Калифорния.</p>
             </div>
-            <div class="review-card">
-                <div class="review-header">
-                    <div class="review-avatar">М</div>
-                    <div class="review-meta">
-                        <h3>Михаил</h3>
-                        <div class="review-date">12.06.2025</div>
-                    </div>
-                    <div class="rating">★★★★☆</div>
-                </div>
-                <p>Хорошее соотношение цена/качество. Филадельфия просто восхитительна! Доставили на 15 минут раньше
-                    обещанного времени.</p>
-            </div>
-            <div class="review-card">
-                <div class="review-header">
-                    <div class="review-avatar">Е</div>
-                    <div class="review-meta">
-                        <h3>Екатерина</h3>
-                        <div class="review-date">10.06.2025</div>
-                    </div>
-                    <div class="rating">★★★★★</div>
-                </div>
-                <p>Заказали сет на компанию - все были в восторге! Большие порции, красивая подача. Обязательно будем
-                    заказывать снова.</p>
-            </div>
+            <!-- Другие отзывы -->
         </div>
     </div>
 </section>

@@ -14,9 +14,7 @@ class ProductInline(admin.TabularInline):
         if obj.image:
             return format_html('<img src="{}" height="50" />', obj.image.url)
         return "-"
-
     preview_image.short_description = "Превью"
-
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
@@ -25,12 +23,18 @@ class CategoryAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     prepopulated_fields = {'slug': ('name',)}
     inlines = [ProductInline]
+    fieldsets = (
+        (None, {
+            'fields': ('name', 'slug', 'order', 'is_active')
+        }),
+        ('Контент', {
+            'fields': ('image', 'description'),
+        }),
+    )
 
     def product_count(self, obj):
         return obj.products.count()
-
     product_count.short_description = "Кол-во продуктов"
-
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
@@ -59,5 +63,4 @@ class ProductAdmin(admin.ModelAdmin):
         if obj.image:
             return format_html('<img src="{}" height="100" />', obj.image.url)
         return "-"
-
     preview_image.short_description = "Текущее изображение"

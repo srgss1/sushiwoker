@@ -12,6 +12,8 @@ class Category(models.Model):
     name = models.CharField("Название", max_length=100)
     slug = models.SlugField("URL-адрес", max_length=100, unique=True, blank=True)
     order = models.PositiveIntegerField("Порядок", default=0)
+    image = models.ImageField("Изображение", upload_to='categories/', blank=True, null=True)
+    description = models.TextField("Описание", blank=True)
     is_active = models.BooleanField("Активна", default=True)
 
     class Meta:
@@ -24,16 +26,21 @@ class Category(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            base_slug = slugify(self.name)
+            base_slug = slugify(self.name)  # 1. Однократное создание slug
             unique_slug = base_slug
             counter = 1
 
-            # Гарантируем уникальность slug
-            while Category.objects.filter(slug=unique_slug).exists():
+            # 2. Проверка уникальности с временной переменной
+            while Category.objects.filter(slug=unique_slug).exclude(id=self.id).exists():
                 unique_slug = f"{base_slug}-{counter}"
                 counter += 1
 
-            self.slug = unique_slug
+            self.slug = unique_slug  # 3. Однократное присвоение
+
+        # 4. Добавляем проверку для существующих записей
+        elif Category.objects.filter(slug=self.slug).exclude(id=self.id).exists():
+            raise ValueError(f"Slug '{self.slug}' уже существует для другой категории")
+        
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):
