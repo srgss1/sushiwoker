@@ -7137,3 +7137,403 @@ Not Found: /.well-known/appspecific/com.chrome.devtools.json
 - Broken pipe from ('127.0.0.1', 52257)
 C:\sushiwoker\core\migrations\0003_category_description_category_image.py changed, reloading.
 Watching for file changes with StatReloader
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 17184
+"GET /static/css/style.css?v=1753050350 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20993
+"GET /static/css/style.css?v=1753050356 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11635
+"GET /static/css/style.css?v=1753050359 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17184
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753050360 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 64861)
+"GET /menu/rolly/ HTTP/1.1" 200 17184
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753050369 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20993
+"GET /static/css/style.css?v=1753050391 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050409 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 200 18194
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 2749636
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050422 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050423 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 11634
+"GET /static/css/style.css?v=1753050425 HTTP/1.1" 200 16958
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 16767
+"GET /static/css/style.css?v=1753050426 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050430 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050451 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050452 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050464 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 62496)
+"GET /menu/ HTTP/1.1" 200 11634
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753050557 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 16767
+"GET /static/css/style.css?v=1753050558 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+"GET /static/css/style.css?v=1753050756 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 51710)
+"GET /static/js/main.js HTTP/1.1" 200 17254
+Сохранение CartItem: id=97, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=98, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19340
+"GET /static/css/style.css?v=1753050765 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+Сохранение CartItem: id=99, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=99, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 13825
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753050771 HTTP/1.1" 200 16958
+- Broken pipe from ('127.0.0.1', 51709)
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET / HTTP/1.1" 200 19753
+"GET /static/css/style.css?v=1753050773 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11634
+"GET /static/css/style.css?v=1753050795 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+"GET /static/css/style.css?v=1753050797 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 51982)
+Сохранение CartItem: id=100, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=100, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=100, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 15309
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /static/css/style.css?v=1753050804 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20166
+"GET /static/css/style.css?v=1753050806 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20166
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753050816 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20166
+"GET /static/css/style.css?v=1753050817 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 52587)
+"GET /menu/ HTTP/1.1" 200 11634
+"GET /static/css/style.css?v=1753050820 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+"GET /static/css/style.css?v=1753050821 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+"GET /static/css/style.css?v=1753050823 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=101, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753050826 HTTP/1.1" 200 16958
+Сохранение CartItem: id=101, product=12, quantity=2, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+"GET /static/css/style.css?v=1753050829 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=101, product=12, quantity=3, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=101, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET /menu/rolly/ HTTP/1.1" 200 16871
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753050834 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19683
+"GET /static/css/style.css?v=1753052255 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 200 17907
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=99, product=14, quantity=3, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19683
+"GET /static/css/style.css?v=1753052261 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12110
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753052266 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 17347
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753052267 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19683
+"GET /static/css/style.css?v=1753052270 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=99, product=14, quantity=4, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=99, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=99, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=100, product=13, quantity=4, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=100, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19683
+"GET /static/css/style.css?v=1753052288 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19730
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753052500 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 65361)
+"GET / HTTP/1.1" 200 20102
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753052772 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 54005)
+"GET / HTTP/1.1" 200 20102
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753052774 HTTP/1.1" 200 16958
+Сохранение CartItem: id=100, product=13, quantity=3, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=100, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 20102
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753052782 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20102
+"GET /static/css/style.css?v=1753052899 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 200 18853
+"GET / HTTP/1.1" 200 20102
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753052900 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20102
+"GET /static/css/style.css?v=1753052907 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 54037)
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20102
+"GET /static/css/style.css?v=1753052908 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 62425)
+"GET / HTTP/1.1" 200 20102
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753052909 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 54004)
+"GET / HTTP/1.1" 200 19707
+"GET /static/css/style.css?v=1753053355 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 200 18902
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=101, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=101, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+"GET /menu/ HTTP/1.1" 200 12134
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753053458 HTTP/1.1" 200 16958
+- Broken pipe from ('127.0.0.1', 54180)
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17371
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=99, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=99, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=102, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=102, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 1 for product 11
+Сохранение CartItem: id=102, product=11, quantity=1, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 17310
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 54182)
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /static/css/style.css?v=1753053487 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19707
+"GET /static/css/style.css?v=1753053488 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19707
+"GET /static/css/style.css?v=1753053489 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 54827)
+Сохранение CartItem: id=103, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=103, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /menu/ HTTP/1.1" 200 12216
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753053497 HTTP/1.1" 200 16958
+"GET /menu/rolly/ HTTP/1.1" 200 17453
+"GET /static/css/style.css?v=1753053498 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Update request for product 11
+Updating quantity to 1 for product 11
+Сохранение CartItem: id=103, product=11, quantity=1, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18897
+"GET /static/css/style.css?v=1753053516 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+Получен запрос на обновление: item_id=103, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=103, product=11, quantity=2, queries=1
+"POST /orders/cart/update/103/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=103, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=103, product=11, quantity=1, queries=1
+"POST /orders/cart/update/103/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=101, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=101, product=12, quantity=1, queries=1
+"POST /orders/cart/update/101/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=101, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=101, product=12, quantity=2, queries=1
+"POST /orders/cart/update/101/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=101, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=101, product=12, quantity=3, queries=1
+"POST /orders/cart/update/101/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=100, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=100, product=13, quantity=3, queries=1
+"POST /orders/cart/update/100/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=99, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=99, product=14, quantity=4, queries=1
+"POST /orders/cart/update/99/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=101, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=6otcjztj86xkbjpdiv7yev3hrz1r1751
+Сохранение CartItem: id=101, product=12, quantity=2, queries=1
+"POST /orders/cart/update/101/ HTTP/1.1" 200 79
+"GET /menu/ HTTP/1.1" 200 12218
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753053530 HTTP/1.1" 200 16958
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17455
+"GET /static/css/style.css?v=1753053531 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19791
+"GET /static/css/style.css?v=1753053544 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 55513)
+"GET /static/js/main.js HTTP/1.1" 304 0

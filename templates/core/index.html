@@ -137,19 +137,5 @@
 {% endblock %}
 
 {% block extra_js %}
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Для каждого товара в корзине показываем контролы количества
-        {% for item in cart.items.all %}
-        (function() {
-            const controls = document.querySelector(`.quantity-controls[data-product="{{ item.product.id }}"]`);
-            if (controls) {
-                controls.style.display = 'flex';
-                controls.querySelector('.quantity-display').textContent = '{{ item.quantity }}';
-                controls.closest('.product-card').querySelector('.add-to-cart').style.display = 'none';
-            }
-        })();
-        {% endfor %}
-    });
-</script>
+<!-- Удалён inline-скрипт - логика перенесена в main.js -->
 {% endblock %}

@@ -128,5 +128,20 @@
 
 <script src="{% static 'js/main.js' %}"></script>
 {% block extra_js %}{% endblock %}
+<script>
+    // Универсальные данные корзины для всех страниц
+    window.cartData = {
+        items: [
+            {% for item in cart.items.all %}
+            {
+                product_id: {{ item.product.id }},
+                quantity: {{ item.quantity }}
+            }{% if not forloop.last %},{% endif %}
+            {% endfor %}
+        ],
+        total_items: {{ cart.total_items|default:0 }}
+    };
+    console.log('Cart data loaded:', window.cartData); // Для отладки
+</script>
 </body>
 </html>
