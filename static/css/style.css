@@ -10,6 +10,9 @@
     --gray-medium: #a0a0a0;        /* Второстепенный текст */
     --success: #28a745;            /* Успешные действия */
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --header-text: var(--primary-dark); /* Цвет текста в шапке */
+    --header-bg: white; /* Фон шапки */
+    --header-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень шапки */
 }
 
 * {
@@ -87,12 +90,12 @@ a {
 
 /* ========== ШАПКА ========== */
 header {
-    background-color: var(--primary-dark);
+    background-color: white; /* Меняем на белый */
     padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Добавляем тень для разделения */
 }
 
 .header-inner {
@@ -104,10 +107,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-    color: var(--text-light);
-    font-size: 22px;
-    font-weight: 700;
+    height: 50px; /* Фиксированная высота для выравнивания */
 }
 
 .logo img {
@@ -119,15 +119,16 @@ nav {
     gap: 25px;
 }
 
+/* Цвета текста и элементов */
 nav a {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--primary-dark); /* Темный цвет для текста */
     font-weight: 500;
     padding: 5px 0;
     position: relative;
 }
 
 nav a:hover {
-    color: var(--text-light);
+    color: var(--primary-accent); /* Акцентный цвет при наведении */
 }
 
 nav a::after {
@@ -155,7 +156,7 @@ nav a:hover::after {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--text-light);
+    color: var(--primary-dark);
     font-weight: 500;
 }
 
@@ -169,12 +170,12 @@ nav a:hover::after {
 }
 
 .cart svg {
-    fill: var(--text-light);
+    fill: var(--primary-dark); /* Темный цвет иконки корзины */
     transition: fill 0.3s;
 }
 
 .cart a:hover svg {
-    fill: var(--primary-accent);
+    fill: var(--primary-accent); /* Акцент при наведении */
 }
 
 .cart-count {
@@ -193,6 +194,10 @@ nav a:hover::after {
     font-weight: 600;
 }
 
+.categories-menu-btn {
+    color: var(--primary-dark); /* Темный цвет кнопки меню */
+}
+
 /* ========== МОБИЛЬНОЕ МЕНЮ ========== */
 .mobile-menu-btn {
     display: none;
@@ -208,7 +213,7 @@ nav a:hover::after {
     display: block;
     height: 3px;
     width: 100%;
-    background-color: var(--text-light);
+    background-color: var(--primary-dark); /* Темные полоски бургер-меню */
     border-radius: 3px;
     transition: all 0.3s ease;
 }
