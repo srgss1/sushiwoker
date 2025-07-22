@@ -54,3 +54,7 @@ def category_view(request, slug):
         'products': products,
         'cart': get_cart(request)
     })
+
+
+def get_categories(request):
+    return Category.objects.filter(is_active=True).order_by('order')

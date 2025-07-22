@@ -17,12 +17,25 @@
             --hero-bg: url('{% static "images/hero-bg.jpg" %}');
         }
     </style>
+    <style>
+        :root {
+          --primary-dark: #2c3e50; /* Цвет фона меню */
+        }
+    </style>
     {% block extra_css %}{% endblock %}
 </head>
 <body>
 <header>
     <div class="container">
         <div class="header-inner">
+
+            <!-- Кнопка открытия меню (в шапке) -->
+            <button id="menuToggle" class="menu-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="currentColor"/>
+                </svg>
+            </button>
+
             <a href="{% url 'index' %}" class="logo">
                 <img src="{% static 'images/logo.png' %}" alt="SushiWoker">
             </a>
@@ -142,5 +155,22 @@
     };
     console.log('Cart data loaded:', window.cartData); // Для отладки
 </script>
+
+<!-- Боковое меню категорий -->
+<aside id="categoriesSidebar" class="sidebar">
+    <div class="sidebar-inner">
+        {% for category in categories %}
+        <a href="{% url 'category_detail' category.slug %}" class="menu-item" data-category="{{ category.slug }}">
+            {% if category.image %}
+            <img src="{{ category.image.url }}" alt="{{ category.name }}" class="menu-icon">
+            {% else %}
+            <div class="menu-icon placeholder"></div>
+            {% endif %}
+            <span class="menu-tooltip">{{ category.name }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</aside>
+
 </body>
 </html>

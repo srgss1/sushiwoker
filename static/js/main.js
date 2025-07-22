@@ -62,6 +62,41 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    // ============= Боковое меню категорий =============
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('categoriesSidebar');
+    
+    if (menuToggle && sidebar) {
+        // Переключение меню
+        menuToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            sidebar.classList.toggle('active');
+        });
+        
+        // Автоматическое открытие на десктопах
+        if (window.innerWidth >= 1024) {
+            sidebar.classList.add('active');
+        }
+        
+        // Адаптация при ресайзе
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 1024) {
+                sidebar.classList.add('active');
+            } else {
+                sidebar.classList.remove('active');
+            }
+        });
+        
+        // Закрытие при клике вне меню (для мобилок)
+        document.addEventListener('click', function(e) {
+            if (window.innerWidth < 1024 && 
+                !sidebar.contains(e.target) && 
+                e.target !== menuToggle) {
+                sidebar.classList.remove('active');
+            }
+        });
+    }
     
     // ============= Фильтрация продуктов =============
     const filterButtons = document.querySelectorAll('.filter-btn');

@@ -7537,3 +7537,1785 @@ Not Found: /.well-known/appspecific/com.chrome.devtools.json
 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
 - Broken pipe from ('127.0.0.1', 55513)
 "GET /static/js/main.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20173
+"GET /static/css/style.css?v=1753055175 HTTP/1.1" 200 16958
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20173
+"GET /static/css/style.css?v=1753055185 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13992
+"GET /static/css/style.css?v=1753055188 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20173
+"GET /static/css/style.css?v=1753055194 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 58333)
+"GET /menu/ HTTP/1.1" 200 13992
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753055198 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20173
+"GET /static/css/style.css?v=1753055199 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /orders/cart/ HTTP/1.1" 200 19282
+"GET /static/css/style.css?v=1753055203 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20173
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753055206 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 13992
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753055208 HTTP/1.1" 200 16958
+"GET / HTTP/1.1" 200 20173
+"GET /static/css/style.css?v=1753055215 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20476
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753055397 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 14295
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 58757)
+"GET /static/css/style.css?v=1753055411 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 14300
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753055462 HTTP/1.1" 200 16958
+"GET /menu/ HTTP/1.1" 200 14300
+"GET /static/css/style.css?v=1753055538 HTTP/1.1" 200 18693
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20481
+"GET /static/css/style.css?v=1753055543 HTTP/1.1" 200 18693
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20481
+"GET /static/css/style.css?v=1753055638 HTTP/1.1" 200 18693
+"GET /static/js/main.js HTTP/1.1" 200 19981
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20481
+"GET /static/css/style.css?v=1753055720 HTTP/1.1" 200 18693
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50143)
+"GET /menu/ HTTP/1.1" 200 14300
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753055728 HTTP/1.1" 200 18693
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 18145
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753055728 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50142)
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 17567
+"GET /static/js/main.js HTTP/1.1" 200 18902
+"GET /static/css/style.css?v=1753056016 HTTP/1.1" 200 16958
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 51244)
+"GET /menu/rolly/ HTTP/1.1" 200 17567
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753056752 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50010)
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50009)
+"GET /static/css/style.css?v=1753056786 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753056793 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50653)
+"GET /media/products/placeholder.png HTTP/1.1" 200 78927
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753056830 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056833 HTTP/1.1" 200 17623
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+"GET /menu/ HTTP/1.1" 200 12330
+"GET /static/css/style.css?v=1753056930 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17567
+"GET /static/css/style.css?v=1753056932 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12330
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056936 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056938 HTTP/1.1" 200 17623
+- Broken pipe from ('127.0.0.1', 53395)
+"GET /menu/ HTTP/1.1" 200 12330
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056940 HTTP/1.1" 200 17623
+"GET /menu/rolly/ HTTP/1.1" 200 17567
+"GET /static/css/style.css?v=1753056942 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12330
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056944 HTTP/1.1" 200 17623
+"GET /menu/rolly/ HTTP/1.1" 200 17567
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753056945 HTTP/1.1" 200 17623
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 53476)
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 53437)
+"GET /static/css/style.css?v=1753056946 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 53599)
+"GET /static/css/style.css?v=1753056947 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056948 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753056950 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 53640)
+"GET /menu/ HTTP/1.1" 200 12330
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056951 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056954 HTTP/1.1" 200 17623
+"GET /orders/cart/ HTTP/1.1" 200 19012
+"GET /static/css/style.css?v=1753056956 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753056957 HTTP/1.1" 200 17623
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12330
+"GET /static/css/style.css?v=1753056961 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753056963 HTTP/1.1" 200 17623
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753056971 HTTP/1.1" 200 17623
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753057338 HTTP/1.1" 200 17730
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753057377 HTTP/1.1" 200 17730
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 57896)
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753057379 HTTP/1.1" 200 17730
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19903
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753057381 HTTP/1.1" 200 17730
+"GET / HTTP/1.1" 200 19903
+"GET /static/css/style.css?v=1753057692 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 51031)
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057738 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 51032)
+"GET /static/css/style.css?v=1753057749 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057792 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753057793 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057799 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057802 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057803 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057804 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057806 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753057807 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18972
+"GET /static/css/style.css?v=1753057813 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057815 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057818 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057820 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057821 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057917 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057928 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057930 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753057931 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18972
+"GET /static/css/style.css?v=1753057945 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753057946 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753057947 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753057951 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058011 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753058012 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058016 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18972
+"GET /static/css/style.css?v=1753058021 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058022 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753058023 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058025 HTTP/1.1" 200 17686
+"GET /static/css/style.css?v=1753058025 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058136 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753058138 HTTP/1.1" 200 17686
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058142 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753058145 HTTP/1.1" 200 17686
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=99, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=99, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 4 for product 13
+Сохранение CartItem: id=100, product=13, quantity=4, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=100, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 36
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058184 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59931)
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058192 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753058193 HTTP/1.1" 200 17686
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753058194 HTTP/1.1" 200 17686
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058196 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753058197 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753058198 HTTP/1.1" 200 17686
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59932)
+"GET /orders/cart/ HTTP/1.1" 200 18972
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753058200 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058201 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753058202 HTTP/1.1" 200 17686
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19863
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753058555 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753058558 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753058559 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753058826 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059048 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059049 HTTP/1.1" 200 17686
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059077 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 200 18902
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 296404
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059198 HTTP/1.1" 200 17686
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 18902
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 384712
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059206 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059211 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059212 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059231 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753059266 HTTP/1.1" 200 17686
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 17118
+"GET /static/css/style.css?v=1753059267 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 11659
+"GET /static/css/style.css?v=1753059270 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753059271 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+Сохранение CartItem: id=104, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=104, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=104, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=105, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=105, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 3 for product 13
+Сохранение CartItem: id=105, product=13, quantity=3, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 15765
+"GET /static/css/style.css?v=1753059279 HTTP/1.1" 200 17686
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+Получен запрос на обновление: item_id=104, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=104, product=14, quantity=2, queries=1
+"POST /orders/cart/update/104/ HTTP/1.1" 200 78
+Получен запрос на обновление: item_id=104, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=104, product=14, quantity=3, queries=1
+"POST /orders/cart/update/104/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=104, POST=<QueryDict: {}>, body={"quantity":4}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=104, product=14, quantity=4, queries=1
+"POST /orders/cart/update/104/ HTTP/1.1" 200 79
+"GET /menu/ HTTP/1.1" 200 12084
+"GET /static/css/style.css?v=1753059291 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17321
+"GET /static/css/style.css?v=1753059292 HTTP/1.1" 200 17686
+Сохранение CartItem: id=106, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=106, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=106, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 36
+Сохранение CartItem: id=107, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=107, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 3 for product 11
+Сохранение CartItem: id=107, product=11, quantity=3, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+Update request for product 11
+Updating quantity to 4 for product 11
+Сохранение CartItem: id=107, product=11, quantity=4, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 36
+"GET /orders/cart/ HTTP/1.1" 200 18978
+"GET /static/css/style.css?v=1753059303 HTTP/1.1" 200 17686
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+Получен запрос на обновление: item_id=106, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=106, product=12, quantity=2, queries=1
+"POST /orders/cart/update/106/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=105, POST=<QueryDict: {}>, body={"quantity":2}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=105, product=13, quantity=2, queries=1
+"POST /orders/cart/update/105/ HTTP/1.1" 200 79
+Получен запрос на обновление: item_id=104, POST=<QueryDict: {}>, body={"quantity":3}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=104, product=14, quantity=3, queries=1
+"POST /orders/cart/update/104/ HTTP/1.1" 200 80
+Получен запрос на обновление: item_id=106, POST=<QueryDict: {}>, body={"quantity":1}, user=AnonymousUser, session=3e86sq2b0g88zyo7rig406c3tm1h9epx
+Сохранение CartItem: id=106, product=12, quantity=1, queries=1
+"POST /orders/cart/update/106/ HTTP/1.1" 200 79
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059315 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059330 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059332 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059333 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059335 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059336 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059337 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059338 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059339 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059340 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059341 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059342 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059343 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059344 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753059346 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059347 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753059348 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059351 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059352 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059353 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059355 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753059357 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059358 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059359 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059360 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753059363 HTTP/1.1" 200 17686
+"GET /orders/checkout/ HTTP/1.1" 200 12012
+"GET /static/css/style.css?v=1753059366 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059381 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059382 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059383 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059385 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059397 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059398 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059399 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753059400 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059403 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059471 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059474 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059477 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753059478 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059481 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753059482 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059483 HTTP/1.1" 200 17686
+"GET /menu/-1/ HTTP/1.1" 200 10383
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059485 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059486 HTTP/1.1" 200 17686
+"GET /menu/wok/ HTTP/1.1" 200 10368
+"GET /static/css/style.css?v=1753059487 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059489 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059490 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753059491 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059495 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059496 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753059498 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059499 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753059500 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060030 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060033 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060034 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060036 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060038 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060039 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060042 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060047 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060048 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060049 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060050 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060051 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060052 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060054 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060056 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060059 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060060 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060064 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060066 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060068 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060069 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060072 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060073 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060075 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060076 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060077 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060078 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060079 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060081 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060084 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060085 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060086 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060087 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060088 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060089 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060091 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060099 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060125 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060130 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060131 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060132 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060133 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060136 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060137 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060139 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060141 HTTP/1.1" 200 17686
+"GET /menu/-1/ HTTP/1.1" 200 10383
+"GET /static/css/style.css?v=1753060143 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060145 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060181 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060182 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060183 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060184 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060186 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060190 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060192 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060195 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060197 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060202 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060205 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060206 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060207 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17527
+"GET /static/css/style.css?v=1753060208 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060210 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060216 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060239 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753060246 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060248 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12290
+"GET /static/css/style.css?v=1753060251 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060252 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060253 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753060254 HTTP/1.1" 200 17686
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19863
+"GET /static/css/style.css?v=1753089562 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /orders/cart/ HTTP/1.1" 200 18977
+"GET /static/css/style.css?v=1753089566 HTTP/1.1" 200 17686
+"POST /orders/cart/remove/107/ HTTP/1.1" 200 57
+"POST /orders/cart/remove/106/ HTTP/1.1" 200 57
+"POST /orders/cart/remove/105/ HTTP/1.1" 200 57
+"POST /orders/cart/remove/104/ HTTP/1.1" 200 54
+"GET /orders/cart/ HTTP/1.1" 200 11659
+"GET /static/css/style.css?v=1753089575 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089576 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753089583 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17118
+"GET /static/css/style.css?v=1753089585 HTTP/1.1" 200 17686
+Сохранение CartItem: id=108, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089596 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089597 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089603 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753089604 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089605 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089608 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089612 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753089613 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17118
+"GET /static/css/style.css?v=1753089616 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089618 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753089642 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 11659
+"GET /static/css/style.css?v=1753089648 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089649 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089656 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11881
+"GET /static/css/style.css?v=1753089657 HTTP/1.1" 200 17686
+"GET /menu/-1/ HTTP/1.1" 200 9974
+"GET /static/css/style.css?v=1753089659 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089660 HTTP/1.1" 200 17686
+Сохранение CartItem: id=109, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=109, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=109, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=110, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=110, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 15764
+"GET /static/css/style.css?v=1753089669 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12084
+"GET /static/css/style.css?v=1753089682 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19657
+"GET /static/css/style.css?v=1753089684 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12084
+"GET /static/css/style.css?v=1753089689 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17321
+"GET /static/css/style.css?v=1753089690 HTTP/1.1" 200 17686
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=109, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=109, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/14/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=110, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19454
+"GET /static/css/style.css?v=1753089775 HTTP/1.1" 200 17686
+Сохранение CartItem: id=111, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=111, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=112, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=112, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 15764
+"GET /static/css/style.css?v=1753090051 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19657
+"GET /static/css/style.css?v=1753090053 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12084
+"GET /static/css/style.css?v=1753090054 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17321
+"GET /static/css/style.css?v=1753090055 HTTP/1.1" 200 17686
+Update request for product 13
+Updating quantity to 1 for product 13
+Сохранение CartItem: id=112, product=13, quantity=1, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"POST /orders/cart/remove_by_product/13/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 14181
+"GET /static/css/style.css?v=1753090138 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11982
+"GET /static/css/style.css?v=1753090142 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17219
+"GET /static/css/style.css?v=1753090144 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11982
+"GET /static/css/style.css?v=1753090583 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19555
+"GET /static/css/style.css?v=1753090586 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 14181
+"GET /static/css/style.css?v=1753090587 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 11982
+"GET /static/css/style.css?v=1753090590 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17219
+Сохранение CartItem: id=113, product=11, quantity=1, queries=1
+"POST /orders/cart/add/11/ HTTP/1.1" 200 35
+Сохранение CartItem: id=114, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 13
+Updating quantity to 2 for product 13
+Сохранение CartItem: id=114, product=13, quantity=2, queries=1
+"POST /orders/cart/update_by_product/13/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753090605 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122438 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122439 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122440 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753122441 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122443 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122444 HTTP/1.1" 200 17686
+"GET /orders/cart/ HTTP/1.1" 200 17371
+"GET /static/css/style.css?v=1753122446 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122447 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753122448 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122452 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122577 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122585 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753122587 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753122599 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122605 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753122608 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753182131 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=111, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 6 for product 14
+Сохранение CartItem: id=111, product=14, quantity=6, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 7 for product 14
+Сохранение CartItem: id=111, product=14, quantity=7, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 36
+Update request for product 14
+Updating quantity to 6 for product 14
+Сохранение CartItem: id=111, product=14, quantity=6, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=111, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=111, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 5 for product 14
+Сохранение CartItem: id=111, product=14, quantity=5, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 4 for product 14
+Сохранение CartItem: id=111, product=14, quantity=4, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 3 for product 14
+Сохранение CartItem: id=111, product=14, quantity=3, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=111, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 1 for product 14
+Сохранение CartItem: id=111, product=14, quantity=1, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753182224 HTTP/1.1" 200 17686
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753182227 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753182228 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753182232 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753182236 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753182239 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753182242 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753183474 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753183478 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753183484 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753183485 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753183486 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753183488 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19759
+"GET /static/css/style.css?v=1753183492 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12186
+"GET /static/css/style.css?v=1753183494 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17423
+"GET /static/css/style.css?v=1753183495 HTTP/1.1" 200 17686
+Сохранение CartItem: id=115, product=12, quantity=1, queries=1
+"POST /orders/cart/add/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 2 for product 12
+Сохранение CartItem: id=115, product=12, quantity=2, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 12
+Updating quantity to 3 for product 12
+Сохранение CartItem: id=115, product=12, quantity=3, queries=1
+"POST /orders/cart/update_by_product/12/ HTTP/1.1" 200 35
+Update request for product 11
+Updating quantity to 2 for product 11
+Сохранение CartItem: id=113, product=11, quantity=2, queries=1
+"POST /orders/cart/update_by_product/11/ HTTP/1.1" 200 35
+"GET /orders/cart/ HTTP/1.1" 200 18973
+"GET /static/css/style.css?v=1753183504 HTTP/1.1" 200 17686
+"GET / HTTP/1.1" 200 19861
+"GET /static/css/style.css?v=1753183507 HTTP/1.1" 200 17686
+"GET /menu/ HTTP/1.1" 200 12288
+"GET /static/css/style.css?v=1753183512 HTTP/1.1" 200 17686
+"GET /menu/rolly/ HTTP/1.1" 200 17525
+"GET /static/css/style.css?v=1753183515 HTTP/1.1" 200 17686
+"GET /admin/core/category/ HTTP/1.1" 200 15238
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 17990
+"GET /static/css/style.css?v=1753197155 HTTP/1.1" 200 17686
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17990
+"GET /static/css/style.css?v=1753197368 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17990
+"GET /static/css/style.css?v=1753197483 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20326
+"GET /static/css/style.css?v=1753197495 HTTP/1.1" 200 19278
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20326
+"GET /static/css/style.css?v=1753197497 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20326
+"GET /static/css/style.css?v=1753197499 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 19919
+"GET /static/css/style.css?v=1753197519 HTTP/1.1" 200 19278
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 20000
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 384712
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET / HTTP/1.1" 200 19919
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753197525 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 19919
+"GET /static/css/style.css?v=1753197526 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13495
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753197534 HTTP/1.1" 200 19278
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 17583
+"GET /static/css/style.css?v=1753197536 HTTP/1.1" 200 19278
+C:\sushiwoker\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/rolly/ HTTP/1.1" 200 17583
+"GET /static/css/style.css?v=1753197643 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 19919
+"GET /static/css/style.css?v=1753197646 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 19919
+"GET /static/css/style.css?v=1753197648 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13495
+"GET /static/css/style.css?v=1753197650 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17583
+"GET /static/css/style.css?v=1753197651 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13495
+"GET /static/css/style.css?v=1753197655 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17583
+"GET /static/css/style.css?v=1753197656 HTTP/1.1" 200 19278
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 19919
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753197679 HTTP/1.1" 200 19278
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Сохранение CartItem: id=116, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=116, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=117, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+"GET /menu/ HTTP/1.1" 200 13698
+"GET /static/css/style.css?v=1753197696 HTTP/1.1" 200 19278
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17786
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /static/css/style.css?v=1753197698 HTTP/1.1" 200 19278
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17936
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753197785 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17936
+"GET /static/css/style.css?v=1753197786 HTTP/1.1" 200 19278
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17936
+"GET /static/css/style.css?v=1753197791 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20272
+"GET /static/css/style.css?v=1753197793 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20272
+"GET /static/css/style.css?v=1753197795 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753197824 HTTP/1.1" 200 19278
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 20000
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 384712
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753197970 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 200 20060
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753198008 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753198010 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753198011 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20069
+"GET /static/css/style.css?v=1753198012 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20069
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753198013 HTTP/1.1" 200 19278
+Сохранение CartItem: id=118, product=14, quantity=1, queries=1
+"POST /orders/cart/add/14/ HTTP/1.1" 200 35
+Сохранение CartItem: id=119, product=13, quantity=1, queries=1
+"POST /orders/cart/add/13/ HTTP/1.1" 200 35
+Update request for product 14
+Updating quantity to 2 for product 14
+Сохранение CartItem: id=118, product=14, quantity=2, queries=1
+"POST /orders/cart/update_by_product/14/ HTTP/1.1" 200 35
+"GET /menu/ HTTP/1.1" 200 13848
+"GET /static/css/style.css?v=1753198021 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/rolly/ HTTP/1.1" 200 17936
+"GET /static/css/style.css?v=1753198027 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13848
+"GET /static/css/style.css?v=1753198031 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20272
+"GET /static/css/style.css?v=1753198042 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20272
+"GET /static/css/style.css?v=1753198045 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13848
+"GET /static/css/style.css?v=1753198046 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20272
+"GET /static/css/style.css?v=1753198052 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198096 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198097 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198099 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198100 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198102 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198103 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198104 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198106 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198108 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198109 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198110 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198113 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198114 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198115 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198116 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198117 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198119 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198219 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198223 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198224 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198225 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198227 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198229 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198230 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198231 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198232 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198234 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198236 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198237 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198243 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198307 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198309 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198312 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198313 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198315 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198316 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198318 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198319 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198321 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198323 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198354 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198355 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198356 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198358 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198359 HTTP/1.1" 200 19278
+"GET /menu/rolly/ HTTP/1.1" 200 17937
+"GET /static/css/style.css?v=1753198360 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /static/css/style.css?v=1753198361 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198362 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20273
+"GET /menu/ HTTP/1.1" 200 13849
+"GET /static/css/style.css?v=1753198363 HTTP/1.1" 200 19278
+"GET /static/css/style.css?v=1753198363 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 63470)
+"GET /menu/ HTTP/1.1" 200 13865
+"GET /static/css/style.css?v=1753199298 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20289
+"GET /static/css/style.css?v=1753199303 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20289
+"GET /static/css/style.css?v=1753199305 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13865
+"GET /static/css/style.css?v=1753199306 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13865
+"GET /static/css/style.css?v=1753199315 HTTP/1.1" 200 19278
+"GET / HTTP/1.1" 200 20086
+"GET /static/css/style.css?v=1753199341 HTTP/1.1" 200 19278
+"GET /static/images/logo.png HTTP/1.1" 200 31695
+"GET /static/js/main.js HTTP/1.1" 200 20060
+"GET /static/images/hero-bg.jpg HTTP/1.1" 200 384712
+"GET /media/products/medium/-2_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-3_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-1_medium.webp HTTP/1.1" 200 3816
+"GET /media/products/medium/-4_medium.webp HTTP/1.1" 200 3816
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199344 HTTP/1.1" 200 19278
+"GET /static/images/placeholder.png HTTP/1.1" 200 22581
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199452 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199671 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 200 21369
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199672 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199673 HTTP/1.1" 200 19101
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753199674 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20086
+"GET /static/css/style.css?v=1753199676 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199677 HTTP/1.1" 200 19101
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199680 HTTP/1.1" 200 19101
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753199682 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199683 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/-2/ HTTP/1.1" 200 10606
+"GET /static/css/style.css?v=1753199684 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199686 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753199687 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199689 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199772 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 200 20212
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199774 HTTP/1.1" 200 19101
+"GET / HTTP/1.1" 200 20086
+"GET /static/css/style.css?v=1753199775 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199776 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199777 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199778 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199782 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/style.css?v=1753199785 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199786 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199788 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199789 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199883 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753199884 HTTP/1.1" 200 19101
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753201412 HTTP/1.1" 200 19278
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753201547 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753201882 HTTP/1.1" 200 19101
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753201904 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204645 HTTP/1.1" 200 19602
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753204675 HTTP/1.1" 200 19602
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204681 HTTP/1.1" 200 19602
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204694 HTTP/1.1" 200 19602
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204695 HTTP/1.1" 200 19602
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204698 HTTP/1.1" 200 19602
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204707 HTTP/1.1" 200 19278
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204837 HTTP/1.1" 200 19297
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204890 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204948 HTTP/1.1" 200 19346
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753204969 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205035 HTTP/1.1" 200 19331
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205037 HTTP/1.1" 200 19331
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205051 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205164 HTTP/1.1" 200 19326
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205180 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205295 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205296 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205297 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205305 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205331 HTTP/1.1" 200 19325
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205337 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205566 HTTP/1.1" 200 19336
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205567 HTTP/1.1" 200 19336
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205578 HTTP/1.1" 200 19338
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205585 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205597 HTTP/1.1" 200 19333
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753205606 HTTP/1.1" 200 19326
+"GET /static/css/style.css?v=1753205606 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753206016 HTTP/1.1" 200 19326
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /media/products/small/-3_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-2_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-1_small.webp HTTP/1.1" 200 2324
+"GET /media/products/small/-4_small.webp HTTP/1.1" 200 2324
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206024 HTTP/1.1" 200 19326
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753206016 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753206024 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206719 HTTP/1.1" 200 19350
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206720 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206721 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206722 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 59315)
+"GET /menu/ HTTP/1.1" 200 13662
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206764 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206819 HTTP/1.1" 200 19489
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206821 HTTP/1.1" 200 19489
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206821 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206895 HTTP/1.1" 200 19501
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206896 HTTP/1.1" 200 19501
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753206897 HTTP/1.1" 200 19501
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207002 HTTP/1.1" 200 19647
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207016 HTTP/1.1" 200 19647
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207018 HTTP/1.1" 200 19647
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207028 HTTP/1.1" 200 19502
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207047 HTTP/1.1" 200 19501
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207060 HTTP/1.1" 200 19502
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207076 HTTP/1.1" 200 19501
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753207160 HTTP/1.1" 200 19647
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753207192 HTTP/1.1" 200 19576
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207194 HTTP/1.1" 200 19576
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207208 HTTP/1.1" 200 19574
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207264 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207649 HTTP/1.1" 200 19326
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207700 HTTP/1.1" 200 19398
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207719 HTTP/1.1" 200 19397
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753207729 HTTP/1.1" 200 19326
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208276 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208339 HTTP/1.1" 200 19334
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208365 HTTP/1.1" 200 19318
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208366 HTTP/1.1" 200 19318
+"GET /menu/rolly/ HTTP/1.1" 200 17750
+"GET /static/css/style.css?v=1753208371 HTTP/1.1" 200 19318
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208373 HTTP/1.1" 200 19318
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208402 HTTP/1.1" 200 19350
+"GET /static/css/style.css?v=1753208402 HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 61127)
+"GET /menu/ HTTP/1.1" 200 13662
+"GET /static/css/style.css?v=1753208696 HTTP/1.1" 200 19350
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209305 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209306 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20031
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /static/css/style.css?v=1753209520 HTTP/1.1" 200 19350
+"GET /orders/cart/ HTTP/1.1" 200 12236
+"GET /static/css/style.css?v=1753209525 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209527 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50405)
+"GET /menu/rolly/ HTTP/1.1" 200 17695
+"GET /static/css/style.css?v=1753209528 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+- Broken pipe from ('127.0.0.1', 50408)
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753209530 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209532 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209534 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753209535 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209536 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/rolly/ HTTP/1.1" 200 17695
+"GET /static/css/style.css?v=1753209538 HTTP/1.1" 200 19350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2833
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209552 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209563 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753209564 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753220299 HTTP/1.1" 200 19350
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/images/hero-bg.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753220301 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753220302 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753220305 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /menu/rolly/ HTTP/1.1" 200 17695
+"GET /static/css/style.css?v=1753220307 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753220308 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 20031
+"GET /static/css/style.css?v=1753220310 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753220311 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753220443 HTTP/1.1" 200 19350
+C:\sushiwoker\core\context_processors.py changed, reloading.
+Watching for file changes with StatReloader
+C:\sushiwoker\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753221400 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 21180
+"GET /static/css/style.css?v=1753221401 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 21180
+"GET /static/css/style.css?v=1753221414 HTTP/1.1" 200 19350
+"GET /menu/ HTTP/1.1" 200 13607
+"GET /static/css/style.css?v=1753221415 HTTP/1.1" 200 19350
+"GET /menu/rolly/ HTTP/1.1" 200 18844
+"GET /static/css/style.css?v=1753221417 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 21180
+"GET /static/css/style.css?v=1753221425 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 21180
+"GET /static/css/style.css?v=1753221426 HTTP/1.1" 200 19350
+"GET /orders/cart/ HTTP/1.1" 200 13385
+"GET /static/css/style.css?v=1753221465 HTTP/1.1" 200 19350
+"GET / HTTP/1.1" 200 21180
+"GET /static/css/style.css?v=1753221466 HTTP/1.1" 200 19350

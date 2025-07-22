@@ -10,6 +10,7 @@
     --gray-medium: #a0a0a0;        /* Второстепенный текст */
     --success: #28a745;            /* Успешные действия */
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	--header-height: 80px;
     --header-text: var(--primary-dark); /* Цвет текста в шапке */
     --header-bg: white; /* Фон шапки */
     --header-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень шапки */
@@ -928,4 +929,107 @@ footer {
     text-align: center;
     color: var(--text-dark);
     line-height: 1.6;
+}
+
+/* ===== Боковое меню ===== */
+.sidebar {
+  position: fixed;
+  left: -80px;
+  top: var(--header-height);
+  height: calc(100vh - var(--header-height));
+  width: 80px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 100;
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  background: #2c3e50;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.menu-icon.placeholder {
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+
+.menu-tooltip {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #2c3e50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+  margin-left: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.menu-item:hover .menu-tooltip {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 20px;
+}
+
+.menu-toggle {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 101;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-dark);
+  display: none;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .menu-toggle {
+    display: block;
+  }
+  
+  .sidebar {
+    left: -100%;
+    width: 70%;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
 }
