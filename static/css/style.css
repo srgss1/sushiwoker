@@ -96,7 +96,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Добавляем тень для разделения */
 }
 
 .header-inner {
@@ -109,6 +108,7 @@ header {
     display: flex;
     align-items: center;
     height: 50px; /* Фиксированная высота для выравнивания */
+	margin-left: 60px;
 }
 
 .logo img {
@@ -931,105 +931,88 @@ footer {
     line-height: 1.6;
 }
 
-/* ===== Боковое меню ===== */
+/* ===== Боковое меню (статичное) ===== */
 .sidebar {
-  position: fixed;
-  left: -80px;
-  top: var(--header-height);
-  height: calc(100vh - var(--header-height));
-  width: 80px;
-  background: rgba(255, 255, 255, 0.95);
-  z-index: 100;
-  transition: all 0.3s ease;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar.active {
-  left: 0;
+    position: fixed;
+    left: 0;
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+    width: 80px;
+    background: rgba(255, 255, 255, 0.98);
+    z-index: 100;
 }
 
 .sidebar-inner {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .menu-item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  transition: all 0.3s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    transition: background 0.3s;
 }
 
 .menu-item:hover {
-  background: #2c3e50;
+    background: #f5f5f5;
 }
 
 .menu-icon {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .menu-icon.placeholder {
-  background: #f0f0f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #999;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
 }
 
 .menu-tooltip {
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #2c3e50;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 4px;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.2s;
-  margin-left: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-dark);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .menu-item:hover .menu-tooltip {
-  opacity: 1;
-  visibility: visible;
-  margin-left: 20px;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 20px;
 }
 
-.menu-toggle {
-  position: fixed;
-  left: 20px;
-  top: 20px;
-  z-index: 101;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--primary-dark);
-  display: none;
-}
-
-/* Адаптивность */
+/* На мобильных устройствах скрываем */
 @media (max-width: 1024px) {
-  .menu-toggle {
-    display: block;
-  }
-  
-  .sidebar {
-    left: -100%;
-    width: 70%;
-  }
-  
-  .sidebar.active {
-    left: 0;
-  }
+    .sidebar {
+        display: none;
+    }
+    
+    main {
+        margin-left: 0 !important;
+    }
+}
+
+/* На десктопах сдвигаем контент */
+@media (min-width: 1025px) {
+    main {
+        margin-left: 80px;
+    }
 }
